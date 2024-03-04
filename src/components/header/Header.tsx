@@ -42,7 +42,7 @@ export default function Header ({
   });
 
   return (
-    <div className="fixed top-14 left-6">
+    <div className="fixed top-1 left-6">
     <div>Armageddon 2024</div>
     <AnimatePresence mode="wait">
       <motion.div
@@ -72,6 +72,8 @@ export default function Header ({
           >
             <span className="block sm:hidden">{navItem.icon}</span>
             <span className="hidden sm:block text-sm">{navItem.name}</span>
+            <span className="absolute inset-x-0  mx-auto -bottom-px bg-gradient-to-r from-transparent via-blue-500 to-transparent  h-px" />
+
           </Link>
         ))}
         <button className="border text-sm font-medium relative border-neutral-200 dark:border-white/[0.2] text-black dark:text-white px-4 py-2 rounded-full">
