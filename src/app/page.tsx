@@ -1,6 +1,8 @@
 import Image from "next/image";
 import { IconCalendarEvent, IconHome, IconMessage, IconUser } from "@tabler/icons-react";
 import Header from "@/components/header/Header";
+import Hero from "@/components/landing/Hero";
+import Events from "@/components/landing/events/Events";
 
 export default function Home() {
 
@@ -34,6 +36,8 @@ export default function Home() {
   return (
     <>
     <Header navItems={navItems}/>
+    <Hero/>
+    <Events/>
     </>
   );
 }

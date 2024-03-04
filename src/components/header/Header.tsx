@@ -28,22 +28,20 @@ export default function Header ({
     // Check if current is not undefined and is a number
     if (typeof current === "number") {
       let direction = current! - scrollYProgress.getPrevious()!;
-
-      if (scrollYProgress.get() < 0.05) {
-        setVisible(true);
-      } else {
+      console.log(scrollYProgress.get())
+      
         if (direction < 0) {
           setVisible(true);
         } else {
-          setVisible(true);
+          setVisible(false);
         }
-      }
+      
     }
   });
 
   return (
-    <div className="fixed top-10 left-6">
-    <div>Armageddon 2024</div>
+    <div className="my-8">
+    <div className="text-white mt-16 ml-6">Armageddon 2024</div>
     <AnimatePresence mode="wait">
       <motion.div
         initial={{
