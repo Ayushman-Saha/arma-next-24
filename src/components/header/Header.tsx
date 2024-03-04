@@ -42,6 +42,8 @@ export default function Header ({
   });
 
   return (
+    <div className="fixed top-14 left-6">
+    <div>Armageddon 2024</div>
     <AnimatePresence mode="wait">
       <motion.div
         initial={{
@@ -78,5 +80,7 @@ export default function Header ({
         </button>
       </motion.div>
     </AnimatePresence>
+    </div>
+    
   );
 };
