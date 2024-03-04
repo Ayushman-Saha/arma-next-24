@@ -72,14 +72,8 @@ export default function Header ({
           >
             <span className="block sm:hidden">{navItem.icon}</span>
             <span className="hidden sm:block text-sm">{navItem.name}</span>
-<<<<<<< HEAD
-            <span className="absolute inset-x-0 w-1/2 mx-auto -bottom-px bg-gradient-to-r from-transparent via-blue-500 to-transparent  h-px" />
-            
-            
-=======
             <span className="absolute inset-x-0  mx-auto -bottom-px bg-gradient-to-r from-transparent via-blue-500 to-transparent  h-px" />
 
->>>>>>> b7d065243960c5df762c9c31072e69357368994a
           </Link>
         ))}
   
