@@ -10,6 +10,7 @@ const events = [
         "description" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce ac consectetur nisi. Aenean volutpat tortor ut rutrum ultricies. Proin elementum, justo a facilisis pulvinar, lectus ex ultrices sapien, ultrices egestas nisl ipsum nec nisl. Nam tristique sem odio, vitae lobortis ligula molestie eget. Aenean iaculis massa vel elit pulvinar eleifend.",
         "href" : "/",
         "image" : "https://picsum.photos/500"
+        
     },
     {
         "name" : "ArmaCode",
