@@ -48,9 +48,7 @@ export default function Header () {
   useMotionValueEvent(scrollYProgress, "change", (current) => {
     // Check if current is not undefined and is a number
     if (typeof current === "number") {
-      let direction = current! - scrollYProgress.getPrevious()!;
-      console.log(scrollYProgress.get())
-      
+      let direction = current! - scrollYProgress.getPrevious()!;      
         if (direction < 0) {
           setVisible(true);
         } else {

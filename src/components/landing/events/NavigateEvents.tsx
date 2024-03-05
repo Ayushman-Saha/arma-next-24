@@ -1,5 +1,7 @@
 "use client";
+import Link from "next/link";
 import { TypewriterEffect } from "../../effects/TypeWriterEffect";
+
 export function NavigateEvents() {
   const words = [
     {
@@ -29,9 +31,12 @@ export function NavigateEvents() {
       </p>
       <TypewriterEffect words={words} className="mb-8 mt-4" />
       <div className="flex flex-col md:flex-row space-y-4 md:space-y-0 space-x-0 md:space-x-4">
+        <Link href="/events">
         <button className="w-40 h-10 rounded-xl bg-black border dark:border-white border-transparent text-white text-sm">
           View all events
         </button>
+        </Link>
+        
       </div>
     </div>
   );
