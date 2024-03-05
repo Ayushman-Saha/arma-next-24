@@ -18,8 +18,8 @@ const config: Config = {
           "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
       },
       animation: {
-        scroll:
-          "scroll var(--animation-duration, 40s) var(--animation-direction, forwards) linear infinite",
+        scroll: "scroll var(--animation-duration, 40s) var(--animation-direction, forwards) linear infinite",
+          spotlight: "spotlight 2s ease .75s 1 forwards",
       },
       keyframes: {
         scroll: {
@@ -27,6 +27,16 @@ const config: Config = {
             transform: "translate(calc(-50% - 0.5rem))",
           },
         },
+        spotlight: {
+            "0%": {
+              opacity: "0",
+              transform: "translate(-72%, -62%) scale(0.5)",
+            },
+            "100%": {
+              opacity: "1",
+              transform: "translate(-50%,-40%) scale(1)",
+            },
+          },
       },
     },
   },

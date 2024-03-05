@@ -8,18 +8,39 @@ import {
 } from "framer-motion";
 import { cn } from "@/utils/cn";
 import Link from "next/link";
+import Image from "next/image";
+import { IconCalendarEvent, IconHome, IconMessage, IconUser } from "@tabler/icons-react";
 
-export default function Header ({
-  navItems,
-  className,
-}: {
-  navItems: {
-    name: string;
-    link: string;
-    icon?: JSX.Element;
-  }[];
-  className?: string;
-}) {
+
+const navItems = [
+    {
+      name: "Home",
+      link: "/",
+      icon: <IconHome className="h-4 w-4 text-neutral-500 dark:text-white" />,
+    },
+    {
+      name: "About",
+      link: "/about",
+      icon: <IconUser className="h-4 w-4 text-neutral-500 dark:text-white" />,
+    },
+    {
+      name: "Events",
+      link: "/event",
+      icon: (
+        <IconCalendarEvent className="h-4 w-4 text-neutral-500 dark:text-white" />
+      ),
+    },
+    {
+      name: "Contact",
+      link: "/contact",
+      icon: (
+        <IconMessage className="h-4 w-4 text-neutral-500 dark:text-white" />
+      ),
+    }
+  ];
+
+
+export default function Header () {
   const { scrollYProgress } = useScroll();
 
   const [visible, setVisible] = useState(true);
@@ -57,7 +78,6 @@ export default function Header ({
         }}
         className={cn(
           "flex max-w-fit  fixed top-10 inset-x-0 mx-auto border border-transparent dark:border-white/[0.2] rounded-full dark:bg-black bg-white shadow-[0px_2px_3px_-1px_rgba(0,0,0,0.1),0px_1px_0px_0px_rgba(25,28,33,0.02),0px_0px_0px_1px_rgba(25,28,33,0.08)] z-[5000] pr-2 pl-8 py-4  items-center justify-center space-x-4 px-6",
-          className
         )}
       >
         {navItems.map((navItem: any, idx: number) => (
