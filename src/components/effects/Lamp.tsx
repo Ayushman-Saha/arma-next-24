@@ -3,7 +3,7 @@ import React from "react";
 import { motion } from "framer-motion";
 import { cn } from "@/utils/cn";
 
-export default function LampDemo() {
+export default function LampEffect() {
   return (
     <LampContainer>
       <motion.h1
@@ -14,9 +14,9 @@ export default function LampDemo() {
           duration: 0.8,
           ease: "easeInOut",
         }}
-        className="mt-8 bg-gradient-to-br from-slate-300 to-black  py-4 bg-clip-text text-center text-4xl font-large tracking-tight text-transparent md:text-8xl underline"
+        className="mt-8 font-bold bg-gradient-to-br from-slate-300 to-black  py-4 bg-clip-text text-center text-4xl font-large tracking-tight text-transparent md:text-8xl underline"
       >
-        ABOUT
+        About
       </motion.h1>
     </LampContainer>
   );
