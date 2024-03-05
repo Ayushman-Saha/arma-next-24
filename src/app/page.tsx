@@ -14,7 +14,7 @@ export default function Home() {
         },
         {
           name: "About",
-          link: "/about",
+          link: "/About",
           icon: <IconUser className="h-4 w-4 text-neutral-500 dark:text-white" />,
         },
         {
