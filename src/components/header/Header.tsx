@@ -59,6 +59,7 @@ export default function Header () {
   });
 
   return (
+    <>
     <div className="my-8">
     <div className="text-white mt-16 ml-6">Armageddon 2024</div>
     <AnimatePresence mode="wait">
@@ -96,6 +97,6 @@ export default function Header () {
       </motion.div>
     </AnimatePresence>
     </div>
-    
+    </>
   );
 };
