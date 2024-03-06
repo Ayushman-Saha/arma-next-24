@@ -6,3 +6,10 @@
  background-color: #000000;
 }
 
+:root::-webkit-scrollbar {
+    display: none;
+}
+
+#stickyScroll::-webkit-scrollbar {
+    display: none;
+}
