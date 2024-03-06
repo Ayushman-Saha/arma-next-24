@@ -32,7 +32,7 @@ const content = [
     },
 ]
 import React, { useEffect, useRef } from 'react'
-import FeaturedEventCard from '../landing/events/FeaturedEventCard'
+import FeaturedEventCard from './FeaturedEventCard'
 import { useScroll } from 'framer-motion'
 import Lenis from '@studio-freight/lenis'
 

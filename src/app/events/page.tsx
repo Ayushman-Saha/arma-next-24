@@ -1,6 +1,7 @@
 import { Spotlight } from '@/components/effects/Spotlight'
 import React from 'react'
-import CardScroll from '@/components/effects/CardScroll'
+import CardScroll from '@/components/events/CardScroll'
+import ScrollReveal from '@/components/events/ScrollReveal'
 
 function EventPage() {
   return (
@@ -24,6 +25,14 @@ function EventPage() {
         </div>
         <div >
             <CardScroll/>
+        </div>
+
+        <h1 className="text-4xl md:text-7xl font-bold text-center bg-clip-text text-transparent bg-gradient-to-b from-neutral-50 to-neutral-400 bg-opacity-50 my-16">
+            Events
+            </h1>
+
+        <div>
+            <ScrollReveal/>
         </div>
         
     </div>

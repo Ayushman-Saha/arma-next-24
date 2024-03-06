@@ -2,6 +2,7 @@
 import React, { useRef } from 'react'
 import Image from 'next/image'
 import {MotionValue, motion, useScroll, useTransform} from 'framer-motion'
+import { Button, MovingBorder } from '../effects/MovingBorder'
 
 function FeaturedEventCard({i,eventName, eventDesc, eventImg, href, range, targetScale, progress} : 
     {
@@ -28,8 +29,10 @@ function FeaturedEventCard({i,eventName, eventDesc, eventImg, href, range, targe
 
 
   return (
-    <div className=' h-screen flex items-center justify-center sticky top-0' ref={container}>
+        <div className=' h-screen flex items-center justify-center sticky top-0' ref={container}>
         <motion.div className='mx-auto h-[500px] w-10/12 flex flex-col relative rounded-xl p-8 origin-top bg-zinc-900 m-4 border-y-2 border-x-2 border-white' style={{scale, top:`calc(-5vh + ${i * 25}px)`}}>
+    <Button>
+
         <h2 className='m-0 text-4xl md:text-4xl font-bold text-center bg-clip-text text-transparent bg-gradient-to-b from-gray-50 to-white bg-opacity-50 mt-'>{eventName}</h2>
             <div className='flex h-full mt-8 items justify-around'>
                 <div className='relative w-2/5 mt-12'>
@@ -53,8 +56,10 @@ function FeaturedEventCard({i,eventName, eventDesc, eventImg, href, range, targe
                 </motion.div>
             </div>
         </div>
+        </Button>
     </motion.div>
     </div>
+    
   )
 }
 

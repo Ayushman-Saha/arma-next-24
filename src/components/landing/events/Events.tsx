@@ -69,7 +69,7 @@ function Events() {
       />
     </div>
 
-    <div>
+    <div className='mt-32'>
         <NavigateEvents/>
     </div>
     </>
