@@ -3,6 +3,7 @@ import { AnimatePresence, motion } from "framer-motion";
 import Link from "next/link";
 import { useState } from "react";
 import { TeamCard } from "../about/TeamCard";
+import { EvervaultCard } from "./EvervaultCard";
 
 export const HoverEffect = ({
   items,
@@ -25,9 +26,8 @@ export const HoverEffect = ({
       )}
     >
       {items.map((item, idx) => (
-        <TeamCard
-          memberName={item.href}
-          memberImg={item.name}
+        <Link
+          href={item.href}
           className="relative group  block p-2 h-full w-full"
           onMouseEnter={() => setHoveredIndex(idx)}
           onMouseLeave={() => setHoveredIndex(null)}
@@ -49,14 +49,11 @@ export const HoverEffect = ({
               />
             )}
           </AnimatePresence>
-          <Card>
-            <CardTitle>{item.name}</CardTitle>
-            <CardDescription>{item.href}</CardDescription>
-          </Card>
-        </TeamCard>
+        <TeamCard memberImg={item.image} memberName={item.name} href={item.href}/>
+        </Link>
       ))}
     </div>
-  );
+  );  
 };
 
 export const Card = ({
