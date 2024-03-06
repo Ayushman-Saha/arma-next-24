@@ -14,7 +14,7 @@ export function TeamCard({
   memberName: String,
   href: string,
   memberImg: string,
-  className: string,
+  className?: string,
 }) {
   return (
     <>

@@ -3,10 +3,10 @@ import { AnimatePresence, motion } from "framer-motion";
 import Link from "next/link";
 import { useState } from "react";
 import { TeamCard } from "../about/TeamCard";
+import { EvervaultCard } from "./EvervaultCard";
 
 export const HoverEffect = ({
   items,
-  image,
   className,
 }: {
   items: {
@@ -49,14 +49,11 @@ export const HoverEffect = ({
               />
             )}
           </AnimatePresence>
-          <Card>
-            <CardTitle>{item.name}</CardTitle>
-            <CardDescription>{item.href}</CardDescription>
-          </Card>
+        <TeamCard memberImg={item.image} memberName={item.name} href={item.href}/>
         </Link>
       ))}
     </div>
-  );
+  );  
 };
 
 export const Card = ({
