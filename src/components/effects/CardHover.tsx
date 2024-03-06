@@ -6,6 +6,7 @@ import { TeamCard } from "../about/TeamCard";
 
 export const HoverEffect = ({
   items,
+  image,
   className,
 }: {
   items: {
@@ -25,9 +26,8 @@ export const HoverEffect = ({
       )}
     >
       {items.map((item, idx) => (
-        <TeamCard
-          memberName={item.href}
-          memberImg={item.name}
+        <Link
+          href={item.href}
           className="relative group  block p-2 h-full w-full"
           onMouseEnter={() => setHoveredIndex(idx)}
           onMouseLeave={() => setHoveredIndex(null)}
@@ -53,7 +53,7 @@ export const HoverEffect = ({
             <CardTitle>{item.name}</CardTitle>
             <CardDescription>{item.href}</CardDescription>
           </Card>
-        </TeamCard>
+        </Link>
       ))}
     </div>
   );

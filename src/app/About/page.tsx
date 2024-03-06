@@ -1,8 +1,11 @@
+
+'use client'
 import { Spotlight } from '@/components/effects/Spotlight'
 import Header from '@/components/header/Header'
 import { TeamCard } from '@/components/about/TeamCard'
 import Head from 'next/head'
-import React from 'react'
+import React from 'react' 
+import Teams from '@/components/about/Team'
 
 function AboutPage() {
   return (
@@ -23,7 +26,8 @@ function AboutPage() {
         </div>
         </div>
         <div>
-            <TeamCard href='/' memberImg='https://picsum.photos/500' memberName="Test"/>
+            <Teams/>
+
         </div>
     </div>
     
