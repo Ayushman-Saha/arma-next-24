@@ -1,5 +1,5 @@
 "use client"
-import React, { Children, useState } from 'react'
+import React from 'react'
 import FeatureTitle from './FeatureTitle'
 import EventCard from '../landing/events/EventCard'
 import { useFeatureStore } from '@/app/events/store'
