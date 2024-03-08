@@ -1,7 +1,6 @@
 "use client";
 import React from "react";
 import { GradientCard } from "../../effects/GradientCard";
-import { IconAppWindow } from "@tabler/icons-react";
 import Image from "next/image";
 import Link from "next/link";
 import { Url } from "next/dist/shared/lib/router/router";

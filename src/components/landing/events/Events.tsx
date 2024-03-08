@@ -66,7 +66,19 @@ function Events() {
         items={events}
         direction="right"
         speed="slow"
-      />
+      >
+        {events.map((item, idx) => (
+          <li key={item.name}>
+            <EventCard 
+            eventDesc={item.description}
+            eventName={item.name}
+            href={item.href}
+            eventImg={item.image}
+            />
+          </li>
+        ))}
+        
+      </InfiniteCards>
     </div>
 
     <div className='mt-32'>
