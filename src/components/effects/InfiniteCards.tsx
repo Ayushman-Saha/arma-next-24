@@ -3,6 +3,7 @@
 import { cn } from "@/utils/cn";
 import React, { useEffect, useState } from "react";
 import EventCard from "../landing/events/EventCard";
+import { SponserCard } from "../landing/sponsers/SponCard";
 
 export const InfiniteCards = ({
   items,
@@ -10,6 +11,7 @@ export const InfiniteCards = ({
   speed = "fast",
   pauseOnHover = true,
   className,
+  children
 }: {
   items: {
     description: string;
@@ -17,6 +19,7 @@ export const InfiniteCards = ({
     href: string;
     image: string;
   }[];
+  children: React.ReactNode;
   direction?: "left" | "right";
   speed?: "fast" | "normal" | "slow";
   pauseOnHover?: boolean;
@@ -87,15 +90,7 @@ export const InfiniteCards = ({
           pauseOnHover && "hover:[animation-play-state:paused]"
         )}
       >
-        {items.map((item, idx) => (
-          <li key={item.name}>
-            <EventCard 
-                eventName={item.name} 
-                eventDesc={item.description} 
-                eventImg={item.image} 
-                href={item.href}/>
-          </li>
-        ))}
+        {children}
       </ul>
     </div>
   );
