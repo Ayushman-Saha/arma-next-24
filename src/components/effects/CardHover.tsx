@@ -21,7 +21,7 @@ export const HoverEffect = ({
   return (
     <div
       className={cn(
-        "grid grid-cols-1 md:grid-cols-2  lg:grid-cols-3  py-10",
+        "grid grid-cols-1 md:grid-cols-2  lg:grid-cols-4  py-10 px-3 rounded-lg",
         className
       )}
     >
@@ -29,7 +29,7 @@ export const HoverEffect = ({
         <Link
           key={idx}
           href={item.href}
-          className="relative group  block p-2 h-full w-full"
+          className="relative group  block p-2 h-full w-full rounded-lg"
           onMouseEnter={() => setHoveredIndex(idx)}
           onMouseLeave={() => setHoveredIndex(null)}
         >
