@@ -10,6 +10,7 @@ import { cn } from "@/utils/cn";
 import Link from "next/link";
 import Image from "next/image";
 import { IconCalendarEvent, IconHome, IconMessage, IconUser } from "@tabler/icons-react";
+import ArmaIcon from "../../../assets/images/ic_logo.jpg"
 
 
 const navItems = [
@@ -61,7 +62,15 @@ export default function Header () {
   return (
     <>
     <div className="my-8">
-    <div className="text-white mt-16 ml-6">Armageddon 2024</div>
+    <div className="text-white mt-16 ml-8 flex flex-wrap">
+        <Image
+        height={100}
+        width={100}
+        src={ArmaIcon}
+        alt="arma logo"
+        />
+    </div>
+    <span className="text-gray-100">rmageddon 2024</span>
     <AnimatePresence mode="wait">
       <motion.div
         initial={{

@@ -27,6 +27,7 @@ export const HoverEffect = ({
     >
       {items.map((item, idx) => (
         <Link
+          key={idx}
           href={item.href}
           className="relative group  block p-2 h-full w-full"
           onMouseEnter={() => setHoveredIndex(idx)}

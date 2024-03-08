@@ -18,6 +18,7 @@ export function Button({
   borderClassName,
   duration,
   className,
+  ...otherProps
 }: {
   borderRadius?: string;
   children: React.ReactNode;
@@ -31,15 +32,18 @@ export function Button({
   return (
     <Component
       className={cn(
-        "relative text-xl overflow-hidden",
+        "bg-transparent relative text-xl overflow-hidden ",
         containerClassName
       )}
       style={{
         borderRadius: borderRadius,
       }}
-      
+      {...otherProps}
     >
-     
+      <div
+        className="absolute inset-0"
+        style={{ borderRadius: `calc(${borderRadius} * 0.96)` }}
+      >
         <MovingBorder duration={duration} rx="30%" ry="30%">
           <div
             className={cn(
@@ -48,11 +52,11 @@ export function Button({
             )}
           />
         </MovingBorder>
-      
+      </div>
 
       <div
         className={cn(
-          "relative border border-slate-800 backdrop-blur-sm text-white w-full h-full text-sm antialiased",
+          "relative bg-slate-900/[0.8] border border-slate-800 backdrop-blur-xl text-white w-full h-full text-sm antialiased",
           className
         )}
         style={{

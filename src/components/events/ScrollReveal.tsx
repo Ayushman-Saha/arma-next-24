@@ -1,4 +1,9 @@
-import React from 'react'
+"use client"
+import React, { Children, useState } from 'react'
+import FeatureTitle from './FeatureTitle'
+import EventCard from '../landing/events/EventCard'
+import { useFeatureStore } from '@/app/events/store'
+import { cn } from '@/utils/cn'
 
 const content = [
     {
@@ -35,23 +40,44 @@ const content = [
 
 function ScrollReveal() {
   return (
-    <div className='mx-auto max-w-6xl px-4'>
-        <div className='flex w-full gap-20'>
-            <div className='w-full'>
+    <div className='mx-auto max-w-7xl px-4 my-32'>
+        <div className='flex w-full gap-20 items-start'>
+            <div className='w-full py-[50vh]'>
                 <ul>
                      {content.map((eventDetails, index) => {
                         return <li key={index}>
-                            <p className='py-16 font-heading text-5xl text-gray-300'>{eventDetails.eventName}</p>
+                            <FeatureTitle id={eventDetails.eventName}>{eventDetails.eventName}</FeatureTitle>
                         </li>
                     })}
                 </ul>
             </div>
-            <div className='w-full sticky top-0'>
-                <div className=' bg-gray-400 w-full aspect-square'></div>
+            <div className='w-full h-screen sticky flex -top-[5vh] items-center'>
+                <div className='w-full relative aspect-square rounded-2xl bg-transparent'>
+                {content.map((eventDetails, index) => { 
+                    return (
+                        <FeatureCard key={index} id={eventDetails.eventName}>
+                            <EventCard eventName={eventDetails.eventName} eventDesc={eventDetails.eventDesc} eventImg={eventDetails.eventImg} href={eventDetails.href}/>
+                        </FeatureCard>
+
+                    )
+                })}
+
+                </div>
             </div>
         </div>
     </div>
   )
+}
+
+export function FeatureCard({children, id} : {children : React.ReactNode, id: string}) {
+
+    const inViewFeature = useFeatureStore((state) => state.inViewFeature)
+
+    return(
+        <div className={cn('h-full w-full rounded-2x absolute inset-0 transition-opacity', inViewFeature === id ? "opacity-100" : "opacity-0")}>
+            {children}
+        </div>
+    )
 }
 
 export default ScrollReveal

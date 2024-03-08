@@ -20,19 +20,22 @@ function EventPage() {
             </p>
         </div>
         </div>
-        <div className='text-gray-200 text-center font-bold text-5xl underline m-8'>
-            Event List
+        <div className='text-gray-200 text-center font-bold text-5xl m-8'>
+            Featured events
         </div>
         <div >
             <CardScroll/>
         </div>
 
-        <h1 className="text-4xl md:text-7xl font-bold text-center bg-clip-text text-transparent bg-gradient-to-b from-neutral-50 to-neutral-400 bg-opacity-50 my-16">
+        <h1 className="text-4xl md:text-7xl mb-16 font-bold text-center bg-clip-text text-transparent bg-gradient-to-b from-neutral-50 to-neutral-400 bg-opacity-50">
             Events
             </h1>
 
         <div>
             <ScrollReveal/>
+        </div>
+        <div className='text-gray-200 text-center font-bold text-5xl m-8'>
+            Featured events
         </div>
         
     </div>
