@@ -1,44 +1,27 @@
 "use client"
-import React, { Children, useState } from 'react'
+import React from 'react'
 import FeatureTitle from './FeatureTitle'
 import EventCard from '../landing/events/EventCard'
 import { useFeatureStore } from '@/app/events/store'
 import { cn } from '@/utils/cn'
+import data from "../../app/data.json"
 
-const content = [
-    {
-        eventName : "Test Event",
-        eventDesc : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce ac consectetur nisi. Aenean volutpat tortor ut rutrum ultricies. Proin elementum, justo a facilisis pulvinar, lectus ex ultrices sapien, ultrices egestas nisl ipsum nec nisl. Nam tristique sem odio, vitae lobortis ligula molestie eget. Aenean iaculis massa vel elit pulvinar eleifend.",
-        href : "/",
-        eventImg : "https://picsum.photos/500"
-    },
-    {
-        eventName : "Test",
-        eventDesc : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce ac consectetur nisi. Aenean volutpat tortor ut rutrum ultricies. Proin elementum, justo a facilisis pulvinar, lectus ex ultrices sapien, ultrices egestas nisl ipsum nec nisl. Nam tristique sem odio, vitae lobortis ligula molestie eget. Aenean iaculis massa vel elit pulvinar eleifend.",
-        href : "/",
-        eventImg : "https://picsum.photos/500"
-    },
-    {
-        eventName : "Test Events",
-        eventDesc : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce ac consectetur nisi. Aenean volutpat tortor ut rutrum ultricies. Proin elementum, justo a facilisis pulvinar, lectus ex ultrices sapien, ultrices egestas nisl ipsum nec nisl. Nam tristique sem odio, vitae lobortis ligula molestie eget. Aenean iaculis massa vel elit pulvinar eleifend.",
-        href : "/",
-        eventImg : "https://picsum.photos/500"
-    },
-    {
-        eventName : "Test R_Event",
-        eventDesc : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce ac consectetur nisi. Aenean volutpat tortor ut rutrum ultricies. Proin elementum, justo a facilisis pulvinar, lectus ex ultrices sapien, ultrices egestas nisl ipsum nec nisl. Nam tristique sem odio, vitae lobortis ligula molestie eget. Aenean iaculis massa vel elit pulvinar eleifend.",
-        href : "/",
-        eventImg : "https://picsum.photos/500"
-    },
-    {
-        eventName : "Test Event",
-        eventDesc : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce ac consectetur nisi. Aenean volutpat tortor ut rutrum ultricies. Proin elementum, justo a facilisis pulvinar, lectus ex ultrices sapien, ultrices egestas nisl ipsum nec nisl. Nam tristique sem odio, vitae lobortis ligula molestie eget. Aenean iaculis massa vel elit pulvinar eleifend.",
-        href : "/",
-        eventImg : "https://picsum.photos/500"
-    },
-]
+// const content = data.events.filter((event) => event.type === "competition")
 
-function ScrollReveal() {
+type ScrollRevealProps = {
+            "eventId" : number,
+            "eventName" : string,
+            "eventDesc" : string,
+            "eventImage" : string,
+            "regDeadline" : string,
+            "eventDate" : string,
+            "venue" : string,
+            "regLink" : string,
+            "rulebook" : string
+  }[]
+
+
+function ScrollReveal({content} :{content : ScrollRevealProps}) {
   return (
     <div className='mx-auto max-w-7xl px-4 my-32'>
         <div className='flex w-full gap-20 items-start'>
@@ -56,7 +39,7 @@ function ScrollReveal() {
                 {content.map((eventDetails, index) => { 
                     return (
                         <FeatureCard key={index} id={eventDetails.eventName}>
-                            <EventCard eventName={eventDetails.eventName} eventDesc={eventDetails.eventDesc} eventImg={eventDetails.eventImg} href={eventDetails.href}/>
+                            <EventCard eventName={eventDetails.eventName} eventDesc={eventDetails.eventDesc} eventImg={eventDetails.eventImage} href={`/events/${eventDetails.eventId}`}/>
                         </FeatureCard>
 
                     )
