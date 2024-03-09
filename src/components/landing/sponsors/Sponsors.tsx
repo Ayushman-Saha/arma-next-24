@@ -8,8 +8,10 @@ const sponsors = data.sponsors
 export function Sponsors(){
     return(
     <>
-    {/* <div className="h-[30rem] w-full bg-black flex flex-col items-center justify-center overflow-hidden rounded-md">
-      
+    <div className="h-[30rem] w-full bg-black flex flex-col items-center justify-center overflow-hidden rounded-md">
+      <h1 className="md:text-5xl text-3xl lg:text-7xl font-bold text-center text-white relative z-20">
+        Sponsors
+      </h1>
       <div className="w-[40rem] h-40 relative">
 
         <div className="absolute inset-x-20 top-0 bg-gradient-to-r from-transparent via-indigo-500 to-transparent h-[2px] w-3/4 blur-sm" />
@@ -30,11 +32,10 @@ export function Sponsors(){
       </div>
     </div>
       
-      <div className='grid grid-cols-1 grid-rows-1 gap-3 sm:grid-cols-3 md:mt-4 sm:gap-x-12'>
+      <div className='"mt-8 grid grid-cols-1 grid-rows-1 gap-3 sm:grid-cols-3 md:mt-4 sm:gap-x-12"'>
             {sponsors.map((item, idx) => (
-                <sponsorCard 
-                key={idx}
-                spondisc={item.spondisc}
+                <SponsorCard
+                sponsorDesc={item.sponsorDesc}
                 sponsorName={item.sponsorName}
                 href={item.href}
                 sponsorImg={item.sponsorImg}
@@ -43,7 +44,7 @@ export function Sponsors(){
             ))}
             
             
-        </div> */}
+        </div>
 
 <h1 className="md:text-5xl text-3xl lg:text-7xl font-bold text-center bg-clip-text text-transparent bg-gradient-to-b from-neutral-50 to-neutral-400 bg-opacity-50 relative z-20 my-16">
         Our Sponsors
