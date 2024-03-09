@@ -1,8 +1,7 @@
 import React from "react";
 import { EvervaultCard, Icon } from "../effects/EvervaultCard";
 import Link from "next/link";
-import Image from "next/image";
-import { Url } from "next/dist/shared/lib/router/router";
+
 
 
 export function TeamCard({
