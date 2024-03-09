@@ -1,3 +1,4 @@
+'use client'
 import React from 'react'
 import { HoverEffect } from '@/components/effects/CardHover'
 import { SparklesCore } from '../effects/Sparkles'

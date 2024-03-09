@@ -1,9 +1,5 @@
-
 'use client'
 import { Spotlight } from '@/components/effects/Spotlight'
-import Header from '@/components/header/Header'
-import { TeamCard } from '@/components/about/TeamCard'
-import Head from 'next/head'
 import React from 'react' 
 import Teams from '@/components/about/Team'
 
