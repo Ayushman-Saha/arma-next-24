@@ -3,16 +3,16 @@ import React from "react";
 import { PinContainer } from "../../effects/PinEffect"; 
 import { Url } from "next/dist/shared/lib/router/router";
 
-export function SponsorsCard({
-    sponsorsName,
-    sponsorsImg,
+export function SponsorCard({
+    sponsorName,
+    sponsorImg,
     href,
-    spondisc,
+    sponsorDesc,
 }:{
-    sponsorsName : String
-    sponsorsImg : String
+    sponsorName : String
+    sponsorImg : String
     href : Url
-    spondisc: String
+    sponsorDesc: String
 }) {
     return (
     <div className="h-[30rem] w-full flex items-center justify-center ">

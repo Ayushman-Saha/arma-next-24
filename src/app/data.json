@@ -1,0 +1,130 @@
+{
+    "events"  : [
+        {
+            "eventId" : 1,
+            "eventName" : "ArmaCode",
+            "eventDesc" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce ac consectetur nisi. Aenean volutpat tortor ut rutrum ultricies. Proin elementum, justo a facilisis pulvinar, lectus ex ultrices sapien, ultrices egestas nisl ipsum nec nisl. Nam tristique sem odio, vitae lobortis ligula molestie eget. Aenean iaculis massa vel elit pulvinar eleifend.",
+            "eventImage" : "https://picsum.photos/500",
+            "regDeadline" : "2069-01-01T12:12:34+00:00",
+            "eventDate" : "2069-01-01T12:12:34+00:00",
+            "venue" : "LHC Atrium",
+            "regLink" : "/#",
+            "rulebook" : "/#",
+            "type" : "competition"
+        }, 
+        {
+            "eventId" : 2,
+            "eventName" : "Tech Expo",
+            "eventDesc" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce ac consectetur nisi. Aenean volutpat tortor ut rutrum ultricies. Proin elementum, justo a facilisis pulvinar, lectus ex ultrices sapien, ultrices egestas nisl ipsum nec nisl. Nam tristique sem odio, vitae lobortis ligula molestie eget. Aenean iaculis massa vel elit pulvinar eleifend.",
+            "eventImage" : "https://picsum.photos/500",
+            "regDeadline" : "2069-01-01T12:12:34+00:00",
+            "eventDate" : "2069-01-01T12:12:34+00:00",
+            "venue" : "LHC Atrium",
+            "regLink" : "/#",
+            "rulebook" : "/#",
+            "type" : "featured"
+        },
+        {
+            "eventId" : 3,
+            "eventName" : "Arduino Workshop",
+            "eventDesc" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce ac consectetur nisi. Aenean volutpat tortor ut rutrum ultricies. Proin elementum, justo a facilisis pulvinar, lectus ex ultrices sapien, ultrices egestas nisl ipsum nec nisl. Nam tristique sem odio, vitae lobortis ligula molestie eget. Aenean iaculis massa vel elit pulvinar eleifend.",
+            "eventImage" : "https://picsum.photos/500",
+            "regDeadline" : "2069-01-01T12:12:34+00:00",
+            "eventDate" : "2069-01-01T12:12:34+00:00",
+            "venue" : "Studio Air",
+            "regLink" : "/#",
+            "rulebook" : "/#",
+            "type": "workshop"
+        },
+        {
+            "eventId" : 4,
+            "eventName" : "Guest Lecture",
+            "eventDesc" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce ac consectetur nisi. Aenean volutpat tortor ut rutrum ultricies. Proin elementum, justo a facilisis pulvinar, lectus ex ultrices sapien, ultrices egestas nisl ipsum nec nisl. Nam tristique sem odio, vitae lobortis ligula molestie eget. Aenean iaculis massa vel elit pulvinar eleifend.",
+            "eventImage" : "https://picsum.photos/500",
+            "regDeadline" : "2069-01-01T12:12:34+00:00",
+            "eventDate" : "2069-01-01T12:12:34+00:00",
+            "venue" : "L-5 LHC",
+            "regLink" : "/#",
+            "rulebook" : "/#",
+            "type" : "talk"
+        },
+        {
+            "eventId" : 5,
+            "eventName" : "ArmaCode",
+            "eventDesc" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce ac consectetur nisi. Aenean volutpat tortor ut rutrum ultricies. Proin elementum, justo a facilisis pulvinar, lectus ex ultrices sapien, ultrices egestas nisl ipsum nec nisl. Nam tristique sem odio, vitae lobortis ligula molestie eget. Aenean iaculis massa vel elit pulvinar eleifend.",
+            "eventImage" : "https://picsum.photos/500",
+            "regDeadline" : "2069-01-01T12:12:34+00:00",
+            "eventDate" : "2069-01-01T12:12:34+00:00",
+            "venue" : "LHC Atrium",
+            "regLink" : "/#",
+            "rulebook" : "/#",
+            "type" : "competition"
+        }, 
+        {
+            "eventId" : 6,
+            "eventName" : "Tech Expo",
+            "eventDesc" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce ac consectetur nisi. Aenean volutpat tortor ut rutrum ultricies. Proin elementum, justo a facilisis pulvinar, lectus ex ultrices sapien, ultrices egestas nisl ipsum nec nisl. Nam tristique sem odio, vitae lobortis ligula molestie eget. Aenean iaculis massa vel elit pulvinar eleifend.",
+            "eventImage" : "https://picsum.photos/500",
+            "regDeadline" : "2069-01-01T12:12:34+00:00",
+            "eventDate" : "2069-01-01T12:12:34+00:00",
+            "venue" : "LHC Atrium",
+            "regLink" : "/#",
+            "rulebook" : "/#",
+            "type" : "featured"
+        },
+        {
+            "eventId" : 7,
+            "eventName" : "Arduino Workshop",
+            "eventDesc" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce ac consectetur nisi. Aenean volutpat tortor ut rutrum ultricies. Proin elementum, justo a facilisis pulvinar, lectus ex ultrices sapien, ultrices egestas nisl ipsum nec nisl. Nam tristique sem odio, vitae lobortis ligula molestie eget. Aenean iaculis massa vel elit pulvinar eleifend.",
+            "eventImage" : "https://picsum.photos/500",
+            "regDeadline" : "2069-01-01T12:12:34+00:00",
+            "eventDate" : "2069-01-01T12:12:34+00:00",
+            "venue" : "Studio Air",
+            "regLink" : "/#",
+            "rulebook" : "/#",
+            "type": "workshop"
+        },
+        {
+            "eventId" : 8,
+            "eventName" : "Guest Lecture",
+            "eventDesc" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce ac consectetur nisi. Aenean volutpat tortor ut rutrum ultricies. Proin elementum, justo a facilisis pulvinar, lectus ex ultrices sapien, ultrices egestas nisl ipsum nec nisl. Nam tristique sem odio, vitae lobortis ligula molestie eget. Aenean iaculis massa vel elit pulvinar eleifend.",
+            "eventImage" : "https://picsum.photos/500",
+            "regDeadline" : "2069-01-01T12:12:34+00:00",
+            "eventDate" : "2069-01-01T12:12:34+00:00",
+            "venue" : "L-5 LHC",
+            "regLink" : "/#",
+            "rulebook" : "/#",
+            "type" : "talk"
+        }
+    ],
+    "sponsors" : [
+        {
+            "sponsorName" : "sponsor1",
+            "sponsorDesc" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce ac consectetur nisi. Aenean volutpat tortor ut rutrum ultricies. Proin elementum, justo a facilisis pulvinar, lectus ex ultrices sapien, ultrices egestas nisl ipsum nec nisl. Nam tristique sem odio, vitae lobortis ligula molestie eget. Aenean iaculis massa vel elit pulvinar eleifend.",
+            "href" : "/",
+            "sponsorImg" : "https://picsum.photos/500"
+            
+        },
+        {
+            "sponsorName" : "sponsor1",
+            "sponsorDesc" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce ac consectetur nisi. Aenean volutpat tortor ut rutrum ultricies. Proin elementum, justo a facilisis pulvinar, lectus ex ultrices sapien, ultrices egestas nisl ipsum nec nisl. Nam tristique sem odio, vitae lobortis ligula molestie eget. Aenean iaculis massa vel elit pulvinar eleifend.",
+            "href" : "/",
+            "sponsorImg" : "https://picsum.photos/500"
+            
+        },
+        {
+            "sponsorName" : "sponsor1",
+            "sponsorDesc" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce ac consectetur nisi. Aenean volutpat tortor ut rutrum ultricies. Proin elementum, justo a facilisis pulvinar, lectus ex ultrices sapien, ultrices egestas nisl ipsum nec nisl. Nam tristique sem odio, vitae lobortis ligula molestie eget. Aenean iaculis massa vel elit pulvinar eleifend.",
+            "href" : "/",
+            "sponsorImg" : "https://picsum.photos/500"
+            
+        },
+        {
+            "sponsorName" : "sponsor1",
+            "sponsorDesc" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce ac consectetur nisi. Aenean volutpat tortor ut rutrum ultricies. Proin elementum, justo a facilisis pulvinar, lectus ex ultrices sapien, ultrices egestas nisl ipsum nec nisl. Nam tristique sem odio, vitae lobortis ligula molestie eget. Aenean iaculis massa vel elit pulvinar eleifend.",
+            "href" : "/",
+            "sponsorImg" : "https://picsum.photos/500"
+            
+        }
+    ]
+}
