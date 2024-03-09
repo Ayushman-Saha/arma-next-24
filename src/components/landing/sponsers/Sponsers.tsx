@@ -1,35 +1,35 @@
 import React from 'react'
 import { SparklesCore } from '../../effects/Sparkles'
-import {SponserCard }from './SponCard'
+import {SponsorsCard }from './SponCard'
 import { InfiniteCards } from '@/components/effects/InfiniteCards'
 
-const sponsers = [
+const spon_list = [
     {
-        "sponserName" : "Sponser1",
+        "sponsorsName" : "sponsors1",
         "spondisc" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce ac consectetur nisi. Aenean volutpat tortor ut rutrum ultricies. Proin elementum, justo a facilisis pulvinar, lectus ex ultrices sapien, ultrices egestas nisl ipsum nec nisl. Nam tristique sem odio, vitae lobortis ligula molestie eget. Aenean iaculis massa vel elit pulvinar eleifend.",
         "href" : "/",
-        "sponserImg" : "https://picsum.photos/500"
+        "sponsorsImg" : "https://picsum.photos/500"
         
     },
     {
-        "sponserName" : "Sponser1",
+        "sponsorsName" : "sponsors1",
         "spondisc" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce ac consectetur nisi. Aenean volutpat tortor ut rutrum ultricies. Proin elementum, justo a facilisis pulvinar, lectus ex ultrices sapien, ultrices egestas nisl ipsum nec nisl. Nam tristique sem odio, vitae lobortis ligula molestie eget. Aenean iaculis massa vel elit pulvinar eleifend.",
         "href" : "/",
-        "sponserImg" : "https://picsum.photos/500"
+        "sponsorsImg" : "https://picsum.photos/500"
         
     },
     {
-        "sponserName" : "Sponser1",
+        "sponsorsName" : "sponsors1",
         "spondisc" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce ac consectetur nisi. Aenean volutpat tortor ut rutrum ultricies. Proin elementum, justo a facilisis pulvinar, lectus ex ultrices sapien, ultrices egestas nisl ipsum nec nisl. Nam tristique sem odio, vitae lobortis ligula molestie eget. Aenean iaculis massa vel elit pulvinar eleifend.",
         "href" : "/",
-        "sponserImg" : "https://picsum.photos/500"
+        "sponsorsImg" : "https://picsum.photos/500"
         
     },
     {
-        "sponserName" : "Sponser1",
+        "sponsorsName" : "sponsors1",
         "spondisc" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce ac consectetur nisi. Aenean volutpat tortor ut rutrum ultricies. Proin elementum, justo a facilisis pulvinar, lectus ex ultrices sapien, ultrices egestas nisl ipsum nec nisl. Nam tristique sem odio, vitae lobortis ligula molestie eget. Aenean iaculis massa vel elit pulvinar eleifend.",
         "href" : "/",
-        "sponserImg" : "https://picsum.photos/500"
+        "sponsorsImg" : "https://picsum.photos/500"
         
     },
     
@@ -37,12 +37,12 @@ const sponsers = [
    
 ]
 
-export function Sponsers(){
+export function Sponsors(){
     return(
     <>
     <div className="h-[30rem] w-full bg-black flex flex-col items-center justify-center overflow-hidden rounded-md">
       <h1 className="md:text-5xl text-3xl lg:text-7xl font-bold text-center text-white relative z-20">
-        Sponsers
+        Sponsors
       </h1>
       <div className="w-[40rem] h-40 relative">
         {/* Gradients */}
@@ -67,12 +67,12 @@ export function Sponsers(){
     </div>
       
       <div className='"mt-8 grid grid-cols-1 grid-rows-1 gap-3 sm:grid-cols-3 md:mt-4 sm:gap-x-12"'>
-            {sponsers.map((item, idx) => (
-                <SponserCard 
+            {spon_list.map((item, idx) => (
+                <SponsorsCard
                 spondisc={item.spondisc}
-                sponserName={item.sponserName}
+                sponsorsName={item.sponsorsName}
                 href={item.href}
-                sponserImg={item.sponserImg}
+                sponsorsImg={item.sponsorsImg}
                 />
              
             ))}

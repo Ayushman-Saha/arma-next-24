@@ -3,14 +3,14 @@ import React from "react";
 import { PinContainer } from "../../effects/PinEffect"; 
 import { Url } from "next/dist/shared/lib/router/router";
 
-export function SponserCard({
-    sponserName,
-    sponserImg,
+export function SponsorsCard({
+    sponsorsName,
+    sponsorsImg,
     href,
     spondisc,
 }:{
-    sponserName : String
-    sponserImg : String
+    sponsorsName : String
+    sponsorsImg : String
     href : Url
     spondisc: String
 }) {

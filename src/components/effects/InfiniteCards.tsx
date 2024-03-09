@@ -3,7 +3,6 @@
 import { cn } from "@/utils/cn";
 import React, { useEffect, useState } from "react";
 import EventCard from "../landing/events/EventCard";
-import { SponserCard } from "../landing/sponsers/SponCard";
 
 export const InfiniteCards = ({
   items,
