@@ -10,7 +10,7 @@ import { cn } from "@/utils/cn";
 import Link from "next/link";
 import Image from "next/image";
 import { IconCalendarEvent, IconHome, IconMessage, IconUser } from "@tabler/icons-react";
-import ArmaIcon from "../../../assets/images/ic_logo.jpg"
+import ArmaIcon from "../../../assets/images/arma.png"
 
 
 const navItems = [
