@@ -10,9 +10,6 @@ function Hero() {
       <p  className={JoystickFont.className +" text-2xl md:text-4xl lg:text-9xl text-white font-bold inter-var text-center tracking-wider"}>
         Armageddon 2024
       </p>
-      <p className="text-base md:text-lg mt-4 text-white font-normal inter-var text-center">
-        Annual Tech Fest of IISER Bhopal
-      </p>
     </WavyBackground>
    
   )
