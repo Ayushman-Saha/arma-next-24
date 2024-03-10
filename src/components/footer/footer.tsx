@@ -15,12 +15,14 @@ function Footer() {
       </div>
       <hr className="my-6 border-gray-200 sm:mx-auto dark:border-gray-700 lg:my-8" />
       <div className="sm:flex sm:items-center sm:justify-between">
-          <a href="" className="hover:underline">
+          <a href="#" className="hover:underline">
           <div className="mb-6 md:mb-0">    
               <span className={JoystickFont.className+" self-center text-2xl font-semibold whitespace-nowrap dark:text-white"}>Armageddon 2024 </span>
       </div>
           </a>
-        
+          <p className='text-white'>
+            Developed by Divya, Ayushman and Deepanshu
+            </p>        
     
           <div className="flex mt-4 sm:justify-center sm:mt-0">
               <a href="#" className="text-gray-500 hover:text-gray-900 dark:hover:text-white">
