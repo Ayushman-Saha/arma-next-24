@@ -20,7 +20,10 @@ function Footer() {
               <span className={JoystickFont.className+" self-center text-2xl font-semibold whitespace-nowrap dark:text-white"}>Armageddon 2024 </span>
       </div>
           </a>
-          <p className='text-white'>
+          <p className='text-white text-bold'>
+           For any queries conatct us at cnc@iiserb.ac.in
+            </p>    
+          <p className='text-white text-sm'>
             Developed by Divya, Ayushman and Deepanshu
             </p>        
     
