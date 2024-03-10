@@ -3,6 +3,7 @@ import { cn } from "@/utils/cn";
 import React, { useEffect, useRef, useState } from "react";
 import { createNoise3D } from "simplex-noise";
 
+
 export const WavyBackground = ({
   children,
   className,
@@ -11,7 +12,7 @@ export const WavyBackground = ({
   waveWidth,
   backgroundFill,
   blur = 10,
-  speed = "slow",
+  speed = "fast",
   waveOpacity = 0.5,
   ...props
 }: {
@@ -76,7 +77,7 @@ export const WavyBackground = ({
       ctx.strokeStyle = waveColors[i % waveColors.length];
       for (x = 0; x < w; x += 5) {
         var y = noise(x / 800, 0.3 * i, nt) * 100;
-        ctx.lineTo(x, y + h * 0.5); // adjust for height, currently at 50% of the container
+        ctx.lineTo(x, y + h * 0.7); // adjust for height, currently at 50% of the container
       }
       ctx.stroke();
       ctx.closePath();
