@@ -61,7 +61,7 @@ export default function Header () {
 
   return (
     <>
-    <nav>
+    
     <AnimatePresence mode="wait">
       <motion.div
         initial={{
@@ -102,7 +102,7 @@ export default function Header () {
   
       </motion.div>
     </AnimatePresence>
-    </nav>
+    
     </>
   );
 };
