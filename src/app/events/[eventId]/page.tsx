@@ -7,7 +7,7 @@ export default function EventDetailsPage({params} : {params : {eventId : number}
         <>
         <div className=' h-full items-center justify-center'>
         <div className='mx-auto h-[500px] w-10/12 flex flex-col relative rounded-xl p-8 origin-top m-4'>
-        <h2 className='m-0 text-4xl md:text-4xl font-bold text-center bg-clip-text text-transparent bg-gradient-to-b from-gray-50 to-white bg-opacity-50'>{data.eventName}</h2>
+        <h1 className='m-0 text-4xl md:text-4xl font-bold text-center bg-clip-text text-transparent bg-gradient-to-b from-gray-50 to-white bg-opacity-50'>{event.eventName}</h1>
             <div className='flex h-full mt-8 items justify-around'>
             <div className='relative w-1/3 h-full rounded-xl overflow-hidden'>
                 <div className='w-full h-full'>
