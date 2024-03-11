@@ -108,13 +108,9 @@ At CNC we are committed to building a professional team to work in favour of IIS
         <div className="absolute inset-0 w-full h-full bg-black [mask-image:radial-gradient(350px_200px_at_top,transparent_20%,white)]"></div>
       </div>
     </div>
-<<<<<<< HEAD
-        <HoverEffect items={members}/>
-=======
       
 
         <HoverEffect items={members}/> */}
->>>>>>> 43584e34df63f6e3b8597ff0590119d735285dab
         </>
         
 

@@ -36,7 +36,7 @@ function Events() {
       </div>
     </div>
     
-    <div className='mx-16 grid grid-cols-1 md:grid-cols-3 gap-4 items-center justify-center'>
+    <div className='mx-16 grid grid-cols-1 md:grid-cols-3 lg:gap-16 gap-4 items-center justify-center'>
 
         {events.map((item) => (
           <li key={item.eventId}>
