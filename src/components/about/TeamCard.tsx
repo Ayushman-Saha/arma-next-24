@@ -1,3 +1,4 @@
+"use client";
 import React from "react";
 import { EvervaultCard, Icon } from "../effects/EvervaultCard";
 import Link from "next/link";

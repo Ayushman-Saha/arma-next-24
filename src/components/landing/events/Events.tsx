@@ -36,11 +36,8 @@ function Events() {
       </div>
     </div>
     
-    <div className='mx-16'>
-    <InfiniteCards
-        direction="right"
-        speed="slow"
-      >
+    <div className='mx-16 grid grid-cols-3 gap-4 items-center justify-center'>
+
         {events.map((item) => (
           <li key={item.eventId}>
             <EventCard 
@@ -52,7 +49,7 @@ function Events() {
           </li>
         ))}
         
-      </InfiniteCards>
+     
     </div>
 
     <div className='mt-32'>
