@@ -20,6 +20,7 @@ export function Sponsors(){
         <div className="absolute inset-x-60 top-0 bg-gradient-to-r from-transparent via-sky-500 to-transparent h-px w-1/4" />
  
         <SparklesCore
+         id="tsparticlesfullpage"
           background="transparent"
           minSize={0.4}
           maxSize={1}
