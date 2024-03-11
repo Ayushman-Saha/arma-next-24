@@ -3,34 +3,9 @@ import { SparklesCore } from '../../effects/Sparkles'
 import EventCard from './EventCard'
 import { InfiniteCards } from '@/components/effects/InfiniteCards'
 import { NavigateEvents } from './NavigateEvents'
+import data from "../../../app/data.json"
 
-const events = [
-    {
-        "name" : "ArmaCode",
-        "description" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce ac consectetur nisi. Aenean volutpat tortor ut rutrum ultricies. Proin elementum, justo a facilisis pulvinar, lectus ex ultrices sapien, ultrices egestas nisl ipsum nec nisl. Nam tristique sem odio, vitae lobortis ligula molestie eget. Aenean iaculis massa vel elit pulvinar eleifend.",
-        "href" : "/",
-        "image" : "https://picsum.photos/500"
-        
-    },
-    {
-        "name" : "ArmaCode",
-        "description" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce ac consectetur nisi. Aenean volutpat tortor ut rutrum ultricies. Proin elementum, justo a facilisis pulvinar, lectus ex ultrices sapien, ultrices egestas nisl ipsum nec nisl. Nam tristique sem odio, vitae lobortis ligula molestie eget. Aenean iaculis massa vel elit pulvinar eleifend.",
-        "href" : "/",
-        "image" : "https://picsum.photos/500"
-    },
-    {
-        "name" : "ArmaCode",
-        "description" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce ac consectetur nisi. Aenean volutpat tortor ut rutrum ultricies. Proin elementum, justo a facilisis pulvinar, lectus ex ultrices sapien, ultrices egestas nisl ipsum nec nisl. Nam tristique sem odio, vitae lobortis ligula molestie eget. Aenean iaculis massa vel elit pulvinar eleifend.",
-        "href" : "/",
-        "image" : "https://picsum.photos/500"
-    },
-    {
-        "name" : "ArmaCode",
-        "description" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce ac consectetur nisi. Aenean volutpat tortor ut rutrum ultricies. Proin elementum, justo a facilisis pulvinar, lectus ex ultrices sapien, ultrices egestas nisl ipsum nec nisl. Nam tristique sem odio, vitae lobortis ligula molestie eget. Aenean iaculis massa vel elit pulvinar eleifend.",
-        "href" : "/",
-        "image" : "https://picsum.photos/500"
-    }
-]
+const events = data.events
 
 function Events() {
   return (
@@ -63,17 +38,16 @@ function Events() {
     
     <div className='mx-16'>
     <InfiniteCards
-        items={events}
         direction="right"
         speed="slow"
       >
-        {events.map((item, idx) => (
-          <li key={item.name}>
+        {events.map((item) => (
+          <li key={item.eventId}>
             <EventCard 
-            eventDesc={item.description}
-            eventName={item.name}
-            href={item.href}
-            eventImg={item.image}
+            eventDesc={item.eventDesc}
+            eventName={item.eventName}
+            href={`/events/${item.eventId}`}
+            eventImg={item.eventImage}
             />
           </li>
         ))}

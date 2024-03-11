@@ -2,22 +2,15 @@
 
 import { cn } from "@/utils/cn";
 import React, { useEffect, useState } from "react";
-import EventCard from "../landing/events/EventCard";
+
 
 export const InfiniteCards = ({
-  items,
   direction = "left",
-  speed = "fast",
+  speed = "slow",
   pauseOnHover = true,
   className,
   children
 }: {
-  items: {
-    description: string;
-    name: string;
-    href: string;
-    image: string;
-  }[];
   children: React.ReactNode;
   direction?: "left" | "right";
   speed?: "fast" | "normal" | "slow";
@@ -29,7 +22,7 @@ export const InfiniteCards = ({
 
   useEffect(() => {
     addAnimation();
-  }, []);
+  });
   const [start, setStart] = useState(false);
   function addAnimation() {
     if (containerRef.current && scrollerRef.current) {
