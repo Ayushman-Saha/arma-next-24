@@ -33,22 +33,21 @@ import { Button } from "@/components/effects/MovingBorder";
     "rulebook" : string
 }
 
-export default function EventDetailsPage({params} : {params : {eventId : number}}) {
-    const event = data.events.filter((event) => event.eventId == params.eventId)[0]
+export default function EventDetailsPage({params} : {params : {eventId : string}}) {
+    console.log(decodeURIComponent(params.eventId))
+    const event = data.events.filter((event) => event.eventName == decodeURIComponent(params.eventId))[0]
     return(
       <>
-
-    <div className="h-[80rem] w-full rounded-md bg-neutral-950 relative flex flex-col items-center justify-center antialiased">
-      <BackgroundBeams />
-      <ProductOverviewOne event={event} />
-    </div>
-        
+        <div className="h-[80rem] w-full rounded-md bg-neutral-950 relative flex flex-col items-center justify-center antialiased">
+        <BackgroundBeams />
+        <ProductOverviewOne event={event} />
+        </div>
       </>
     )
 }
 
 function ProductOverviewOne({event} : {event: EventProps}) {
-    const router = useRouter()
+  const router = useRouter()
   let eventDate = new Date(event.eventDate)
   let regDeadline = new Date(event.regDeadline)
   let currentDate = new Date()
@@ -56,8 +55,7 @@ function ProductOverviewOne({event} : {event: EventProps}) {
     <div className="mx-auto max-w-7xl px-4 md:px-8 2xl:px-16">
       <div className="block grid-cols-9 items-start gap-x-10 pb-10 pt-7 lg:grid lg:pb-14 xl:gap-x-14 2xl:pb-20">
         <div className="col-span-5 grid grid-cols-2 gap-2.5">
-          {Array.from({ length: 4 }, (_, i) => (
-            <div key={i} className="col-span-1 transition duration-150 ease-in hover:opacity-90">
+            <div className="col-span-1 transition duration-150 ease-in hover:opacity-90">
               <Image
                 height={800}
                 width={800}
@@ -66,7 +64,6 @@ function ProductOverviewOne({event} : {event: EventProps}) {
                 className="w-full object-cover"
               />
             </div>
-          ))}
         </div>
         <div className="col-span-4 pt-8 lg:pt-0">
           <div className="mb-7 border-b border-gray-300 pb-7">
