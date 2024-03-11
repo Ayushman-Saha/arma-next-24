@@ -36,6 +36,7 @@ export function Sponsors(){
       <div className='"mt-8 grid grid-cols-1 grid-rows-1 gap-3 sm:grid-cols-3 md:mt-4 sm:gap-x-12"'>
             {sponsors.map((item, idx) => (
                 <SponsorCard
+                key={idx}
                 sponsorDesc={item.sponsorDesc}
                 sponsorName={item.sponsorName}
                 href={item.href}
