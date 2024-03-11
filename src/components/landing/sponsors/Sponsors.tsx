@@ -47,37 +47,7 @@ export function Sponsors(){
             
         </div>
 
-{/* <h1 className="md:text-5xl text-3xl lg:text-7xl font-bold text-center bg-clip-text text-transparent bg-gradient-to-b from-neutral-50 to-neutral-400 bg-opacity-50 relative z-20 my-16">
-        Our Sponsors
-      </h1> */}
 
-{/* <div className=" relative w-full bg-black flex flex-col items-center justify-center overflow-hidden rounded-md">
-      <div className="w-full absolute inset-0 h-screen">
-        <SparklesCore
-          id="tsparticlesfullpage"
-          background="transparent"
-          minSize={0.6}
-          maxSize={1.4}
-          particleDensity={100}
-          className="w-full h-full"
-          particleColor="#FFFFFF"
-        />
-      </div>
-
-      <div className='grid grid-cols-1 grid-rows-1 gap-3 sm:grid-cols-3 md:mt-4 sm:gap-x-12'>
-            {sponsors.map((item, idx) => (
-                <SponsorCard 
-                key={idx}
-                sponsorDesc={item.sponsorDesc}
-                sponsorName={item.sponsorName}
-                href={item.href}
-                sponsorImg={item.sponsorImg}
-                />
-             
-            ))}   
-        </div> */}
-      
-      {/* </div> */}
 
         </>
         
