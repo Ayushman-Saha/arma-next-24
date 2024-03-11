@@ -39,7 +39,7 @@ function ScrollReveal({content} :{content : ScrollRevealProps}) {
                 {content.map((eventDetails, index) => { 
                     return (
                         <FeatureCard key={index} id={eventDetails.eventName}>
-                            <EventCard eventName={eventDetails.eventName} eventDesc={eventDetails.eventDesc} eventImg={eventDetails.eventImage} href={`/events/${eventDetails.eventId}`}/>
+                            <EventCard eventName={eventDetails.eventName} eventDesc={eventDetails.eventDesc} eventImg={eventDetails.eventImage} href={`/events/${eventDetails.eventName}`}/>
                         </FeatureCard>
 
                     )
