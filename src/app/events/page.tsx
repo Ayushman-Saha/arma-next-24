@@ -29,10 +29,10 @@ function EventPage() {
         </div>
         
         </div>
-        <div className='text-4xl md:text-7xl mb-16 font-bold text-center bg-clip-text text-transparent bg-gradient-to-b from-neutral-50 to-neutral-400 bg-opacity-50'>
+        <div className='text-4xl md:text-7xl mb-16 p-4 font-bold text-center bg-clip-text text-transparent bg-gradient-to-b from-neutral-50 to-neutral-400 bg-opacity-50'>
             Featured events
         </div>
-        <div >
+        <div className='mt-2' >
             <CardScroll content={featuredEvents}/>
         </div>
 
