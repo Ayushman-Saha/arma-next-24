@@ -47,11 +47,7 @@ export function Sponsors(){
              
             
         </div>
-
-
-
         </>
-        
     )
    
     
