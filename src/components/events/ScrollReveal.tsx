@@ -34,7 +34,7 @@ function ScrollReveal({content} :{content : ScrollRevealProps}) {
                     })}
                 </ul>
             </div>
-            <div className='w-full h-screen sticky flex -top-[5vh] items-center'>
+            <div className='w-full h-screen sticky flex -top-[100vh] items-center'>
                 <div className='w-full relative aspect-square rounded-2xl bg-transparent'>
                 {content.map((eventDetails, index) => { 
                     return (
