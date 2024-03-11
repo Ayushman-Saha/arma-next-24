@@ -21,7 +21,7 @@ function Footer() {
       </div>
           </a>
           <p className='text-white text-bold'>
-           For any queries conatct us at <a className='underline' href='mailto:cnc@iiserb.ac.in'>cnc@iiserb.ac.in</a>
+           For any queries contact us at <a className='underline' href='mailto:cnc@iiserb.ac.in'>cnc@iiserb.ac.in</a>
             </p>    
           <p className='text-white text-sm'>
             Developed by <a href='https://www.linkedin.com/in/divya-sharma-285894258/' className='underline'>Divya</a> , <a href='https://www.linkedin.com/in/ayushman-saha/' className='underline'>Ayushman</a> and  <a href='https://www.linkedin.com/in/d33panshuraj/' className='underline'>Deepanshu</a>
