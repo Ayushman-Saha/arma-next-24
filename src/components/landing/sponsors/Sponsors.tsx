@@ -10,7 +10,7 @@ export function Sponsors(){
     <>
     <div className="h-[30rem] w-full bg-black flex flex-col items-center justify-center overflow-hidden rounded-md">
       <h1 className="md:text-5xl text-3xl lg:text-7xl font-bold text-center text-white relative z-20">
-        Sponsors
+        Our Sponsors
       </h1>
       <div className="w-[40rem] h-40 relative">
 
@@ -46,11 +46,11 @@ export function Sponsors(){
             
         </div>
 
-<h1 className="md:text-5xl text-3xl lg:text-7xl font-bold text-center bg-clip-text text-transparent bg-gradient-to-b from-neutral-50 to-neutral-400 bg-opacity-50 relative z-20 my-16">
+{/* <h1 className="md:text-5xl text-3xl lg:text-7xl font-bold text-center bg-clip-text text-transparent bg-gradient-to-b from-neutral-50 to-neutral-400 bg-opacity-50 relative z-20 my-16">
         Our Sponsors
-      </h1>
+      </h1> */}
 
-<div className=" relative w-full bg-black flex flex-col items-center justify-center overflow-hidden rounded-md">
+{/* <div className=" relative w-full bg-black flex flex-col items-center justify-center overflow-hidden rounded-md">
       <div className="w-full absolute inset-0 h-screen">
         <SparklesCore
           id="tsparticlesfullpage"
@@ -74,9 +74,9 @@ export function Sponsors(){
                 />
              
             ))}   
-        </div>
+        </div> */}
       
-      </div>
+      {/* </div> */}
 
         </>
         

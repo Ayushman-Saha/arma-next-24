@@ -1,4 +1,4 @@
-'use client'
+// 'use client'
 import type { Metadata } from "next";
 import { Spotlight } from '@/components/effects/Spotlight'
 import React from 'react' 
