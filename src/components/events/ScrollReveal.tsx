@@ -23,7 +23,7 @@ type ScrollRevealProps = {
 
 function ScrollReveal({content} :{content : ScrollRevealProps}) {
   return (
-    <div className='mx-auto max-w-7xl px-4 my-32'>
+    <div className='mx-auto max-w-7xl px-4 my-2'>
         <div className='flex w-full gap-20 items-start'>
             <div className='w-full py-[50vh]'>
                 <ul>
@@ -39,7 +39,7 @@ function ScrollReveal({content} :{content : ScrollRevealProps}) {
                 {content.map((eventDetails, index) => { 
                     return (
                         <FeatureCard key={index} id={eventDetails.eventName}>
-                            <EventCard eventName={eventDetails.eventName} eventDesc={eventDetails.eventDesc} eventImg={eventDetails.eventImage} href={`/events/${eventDetails.eventId}`}/>
+                            <EventCard eventName={eventDetails.eventName} eventDesc={eventDetails.eventDesc} eventImg={eventDetails.eventImage} href={`/events/${eventDetails.eventName}`}/>
                         </FeatureCard>
 
                     )
