@@ -1,24 +1,20 @@
-"use client"
 import Image from "next/image"
 import data from "../../data.json"
 import type { Metadata } from "next";
 import { BackgroundBeams } from "@/components/effects/BackgroundBeams";
 import { cn } from "@/utils/cn";
-import { useRouter } from "next/navigation";
-import Link from "next/link";
-import { Button } from "@/components/effects/MovingBorder";
 
-// export const metadata: Metadata = {
-//     title: "Armageddon 2024",
-//     description: `ARMAGEDDON is hosted by the Indian Institute of Science Education and
-//     Research (IISER) Bhopal. ARMAGEDDON, as the name suggests, is not just an event;
-//     it's a battleground for the brightest minds, a place where intellect meets
-//     innovation, and creativity knows no bounds.`,
-//     openGraph: {
-//       title: 'Armageddon 2024',
-//       description: 'Armageddon is annual tech fest of IISER Bhopal',
-//     },
-//   };
+export const metadata: Metadata = {
+    title: "Armageddon 2024",
+    description: `ARMAGEDDON is hosted by the Indian Institute of Science Education and
+    Research (IISER) Bhopal. ARMAGEDDON, as the name suggests, is not just an event;
+    it's a battleground for the brightest minds, a place where intellect meets
+    innovation, and creativity knows no bounds.`,
+    openGraph: {
+      title: 'Armageddon 2024',
+      description: 'Armageddon is annual tech fest of IISER Bhopal',
+    },
+  };
 
 
   type EventProps = {
@@ -34,40 +30,38 @@ import { Button } from "@/components/effects/MovingBorder";
 }
 
 export default function EventDetailsPage({params} : {params : {eventId : string}}) {
-    console.log(decodeURIComponent(params.eventId))
     const event = data.events.filter((event) => event.eventName == decodeURIComponent(params.eventId))[0]
     return(
       <>
         <div className="h-[80rem] w-full rounded-md bg-neutral-950 relative flex flex-col items-center justify-center antialiased">
         <BackgroundBeams />
-        <ProductOverviewOne event={event} />
+        <IndividualEvent event={event} />
         </div>
       </>
     )
 }
 
-function ProductOverviewOne({event} : {event: EventProps}) {
-  const router = useRouter()
+function IndividualEvent({event} : {event: EventProps}) {
   let eventDate = new Date(event.eventDate)
   let regDeadline = new Date(event.regDeadline)
   let currentDate = new Date()
   return (
-    <div className="mx-auto max-w-7xl px-4 md:px-8 2xl:px-16">
-      <div className="block grid-cols-9 items-start gap-x-10 pb-10 pt-7 lg:grid lg:pb-14 xl:gap-x-14 2xl:pb-20">
-        <div className="col-span-5 grid grid-cols-2 gap-2.5">
-            <div className="col-span-1 transition duration-150 ease-in hover:opacity-90">
+    <div className="mx-auto max-w-7xl px-4 md:px-24 2xl:px-16">
+      <div className="items-start gap-x-10 pb-10 pt-7 lg:flex lg:pb-14">
+        <div className="gap-2.5">
+            <div className="transition duration-150 ease-in hover:opacity-90">
               <Image
-                height={800}
-                width={800}
+                height={1800}
+                width={1800}
                 src={event.eventImage}
                 alt="Event Image"
-                className="w-full object-cover"
+                className="mx-auto w-[50vw] lg:w-[150vw] h-auto object-cover rounded-lg"
               />
             </div>
         </div>
         <div className="col-span-4 pt-8 lg:pt-0 z-50">
           <div className="mb-7 border-b border-gray-300 pb-7">
-            <h2 className="text-heading mb-3.5 text-lg font-bold md:text-xl lg:text-2xl 2xl:text-3xl text-gray-50">
+            <h2 className="text-heading mt-8 mb-3.5 text-lg font-bold md:text-xl lg:text-2xl 2xl:text-3xl text-gray-50">
               {event.eventName}
             </h2>
             <p className="text-body text-sm leading-6  lg:text-base lg:leading-8 text-gray-200">
@@ -94,26 +88,31 @@ function ProductOverviewOne({event} : {event: EventProps}) {
               <p className="text-gray-300">{`${eventDate.toLocaleTimeString('en-IN',{timeZoneName: "short"})}`}</p>
             </div>
           </div>
-          <div className="flex items-center justify-center gap-2 border-b border-gray-300 py-8  md:pr-32 lg:pr-12 2xl:pr-32">
+          <div className="flex items-center justify-center gap-2 border-b border-gray-300 py-8 md:pr-12 lg:pr-12">
+          <a href={`${event.rulebook}`} target="_blank">
             <button
             type="submit"
-              onClick={() => ((regDeadline.getTime() - currentDate.getTime()) > 0 ? router.push('/') : {})}
-              className={cn("h-16 w-full rounded-md px-3 py-2 text-sm font-semibold text-black shadow-smfocus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-black", ((regDeadline.getTime() - currentDate.getTime()) > 0 ? "bg-gray-100" : "bg-gray-500"))}
+              className={cn("h-16 w-full px-16 rounded-md py-2 text-sm font-semibold bg-white text-black shadow-smfocus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-black")}
             >
-             {(regDeadline.getTime() - currentDate.getTime()) > 0 ? "Register" : "Registrations Closed"} 
+             Rulebook
             </button>
-            <div className="w-full mx-8">
+            </a>
+            <div className="w-1/2 mx-8">
                 <p className="text-gray-100">Registration Deadline : {regDeadline.toLocaleDateString('en-IN')}</p>
             </div>
           </div>
           <div className="py-6 ">
-          <button
-            type="submit"
-              onClick={() => router.push("/#")}
-              className={cn("h-16 w-full rounded-md px-3 py-2 text-sm font-semibold bg-white text-black shadow-smfocus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-black")}
+          
+
+            <a href={((regDeadline.getTime() - currentDate.getTime()) > 0 ? `${event.regLink}` : "")}>
+            <button
+              type="submit"
+              className={cn("h-16 w-full rounded-md px-3 py-2 text-sm font-semibold text-black shadow-smfocus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-black", ((regDeadline.getTime() - currentDate.getTime()) > 0 ? "bg-gray-100" : "bg-gray-500"))}
             >
-             Rulebook
+             {(regDeadline.getTime() - currentDate.getTime()) > 0 ? "Register" : "Registrations Closed"} 
             </button>
+            </a>
+         
           </div>
          
         </div>
