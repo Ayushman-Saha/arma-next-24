@@ -26,6 +26,19 @@
         },
 
         {
+            "eventId" : 7,
+            "eventName" : "Tech Quiz",
+            "eventDesc" : "Scavenge your techie Brains to compete against each other for a mind-boggling Tech-Quiz in collaboration with IISERB’s very own Quizzing Club IBQC. Be a part of this rewarding challenge filled with fun, excitement and IQ.",
+            "eventImage" : "https://picsum.photos/500",
+            "regDeadline" : "2024-01-01T12:12:34+00:00",
+            "eventDate" : "2024-01-01T12:12:34+00:00",
+            "venue" : "LHC Atrium",
+            "regLink" : "/#",
+            "rulebook" : "/#",
+            "type" : "competition"
+        },
+
+        {
             "eventId" : 3,
             "eventName" : "Arma Fair",
             "eventDesc" : "Experience the ultimate fusion of technology and entertainment at Arma Fair! This pre-event extravaganza promises a captivating blend of tech displays, retro games showcases, and arcade gaming excitement that will leave you wanting more.",
@@ -38,7 +51,7 @@
             "type" : "featured"
         },
         {
-            "eventId" : 3,
+            "eventId" : 4,
             "eventName" : "Arduino Workshop",
             "eventDesc" : "Join us for an exciting Arduino workshop at our tech fest! Learn to harness the power of this versatile microcontroller platform to bring your electronic projects to life. Discover the basics of Arduino programming, explore hardware interfacing, and dive into hands-on projects designed to ignite your imagination. Whether you're a beginner or an enthusiast, this workshop is your gateway to the world of electronics and innovation.",
             "eventImage" : "https://picsum.photos/500",
@@ -66,6 +79,19 @@
             "eventId" : 6,
             "eventName" : "VR Workshop",
             "eventDesc" : "Embark on a journey into the immersive world of Virtual Reality (VR) at our workshop during Armageddon .Explore the latest VR technologies, learn hands-on techniques, and unlock the potential of this groundbreaking medium. Don't miss your chance to step into the future of storytelling and innovation!",
+            "eventImage" : "https://picsum.photos/500",
+            "regDeadline" : "2024-01-01T12:12:34+00:00",
+            "eventDate" : "2024-01-01T12:12:34+00:00",
+            "venue" : "L-5 LHC",
+            "regLink" : "/#",
+            "rulebook" : "/#",
+            "type" : "workshop"
+        },
+        
+        {
+            "eventId" : 6,
+            "eventName" : "Guest Lecture",
+            "eventDesc" : "Join us for a captivating Guest Lecture at our tech fest! Participants will get a chance to engage with industry leaders, innovators, and experts as they share valuable insights on the latest trends and technologies shaping our world.",
             "eventImage" : "https://picsum.photos/500",
             "regDeadline" : "2024-01-01T12:12:34+00:00",
             "eventDate" : "2024-01-01T12:12:34+00:00",

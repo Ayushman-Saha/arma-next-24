@@ -22,7 +22,7 @@ function EventGridLayout({events} : {events : EventProps}) {
             <EventCard 
             eventDesc={item.eventDesc}
             eventName={item.eventName}
-            href={`/events/${item.eventId}`}
+            href={`/events/${item.eventName}`}
             eventImg={item.eventImage}
             />
           </li>

@@ -4,6 +4,8 @@ import type { Metadata } from "next";
 import { BackgroundBeams } from "@/components/effects/BackgroundBeams";
 import { cn } from "@/utils/cn";
 
+
+
 export const metadata: Metadata = {
     title: "Armageddon 2024",
     description: `ARMAGEDDON is hosted by the Indian Institute of Science Education and
@@ -27,6 +29,13 @@ export const metadata: Metadata = {
     "venue" : string,
     "regLink" : string,
     "rulebook" : string
+}
+export function generateStaticParams() {
+  const events = data.events;
+ 
+  return events.map((event:any) => ({
+    eventId: event.eventName,
+  }))
 }
 
 export default function EventDetailsPage({params} : {params : {eventId : string}}) {
