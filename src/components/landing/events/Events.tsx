@@ -18,7 +18,7 @@ function Events() {
           minSize={0.6}
           maxSize={1.4}
           particleDensity={100}
-          className="w-full h-full"
+          className="w-full h-full -z-10"
           particleColor="#FFFFFF"
         />
       </div>

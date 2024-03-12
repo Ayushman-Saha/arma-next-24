@@ -32,7 +32,7 @@ export function NavigateEvents() {
       <TypewriterEffect words={words} className="mb-8 mt-4" />
       <div className="flex flex-col md:flex-row space-y-4 md:space-y-0 space-x-0 md:space-x-4">
         <Link href="/events">
-        <button className="w-40 h-10 rounded-xl bg-black border dark:border-white border-transparent text-white text-sm">
+        <button className="w-40 h-10 rounded-xl bg-black border dark:border-white border-transparent text-white text-sm relative z-30">
           View all events
         </button>
         </Link>
