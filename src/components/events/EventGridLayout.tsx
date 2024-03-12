@@ -20,7 +20,7 @@ function EventGridLayout({events} : {events : EventProps}) {
     <>
     <div className='mx-2 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-x-2 items-center justify-center'>
       {events.map((item) => (
-        <Link href={`/events/${item.eventName}`}>
+        <Link key={item.eventId} href={`/events/${item.eventName}`}>
           <li key={item.eventId}>
             <EventCard 
             eventDesc={item.eventDesc}
