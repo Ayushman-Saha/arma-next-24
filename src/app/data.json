@@ -24,6 +24,19 @@
             "rulebook" : "/#",
             "type" : "featured"
         },
+
+        {
+            "eventId" : 3,
+            "eventName" : "Arma Fair",
+            "eventDesc" : "Experience the ultimate fusion of technology and entertainment at Arma Fair! This pre-event extravaganza promises a captivating blend of tech displays, retro games showcases, and arcade gaming excitement that will leave you wanting more.",
+            "eventImage" : "https://picsum.photos/500",
+            "regDeadline" : "2024-01-01T12:12:34+00:00",
+            "eventDate" : "2024-01-01T12:12:34+00:00",
+            "venue" : "TBD",
+            "regLink" : "/#",
+            "rulebook" : "/#",
+            "type" : "featured"
+        },
         {
             "eventId" : 3,
             "eventName" : "Arduino Workshop",
@@ -48,20 +61,9 @@
             "rulebook" : "/#",
             "type": "workshop"
         },
+      
         {
             "eventId" : 6,
-            "eventName" : "3D Modeling Workshop",
-            "eventDesc" : "An exclusive 3D Modeling Workshop led by experts at our tech fest. The Participants will learn essential techniques,  explore innovative tools, and unleash your creativity in this  hands-on session. The software to be used in this workshop is ‘Blender’. A Fantastic opportunity to hone your skills, expand your knowledge, and take your creations to the next level.",
-            "eventImage" : "https://picsum.photos/500",
-            "regDeadline" : "2024-01-01T12:12:34+00:00",
-            "eventDate" : "2024-01-01T12:12:34+00:00",
-            "venue" : "Studio Air",
-            "regLink" : "/#",
-            "rulebook" : "/#",
-            "type": "workshop"
-        },
-        {
-            "eventId" : 7,
             "eventName" : "VR Workshop",
             "eventDesc" : "Embark on a journey into the immersive world of Virtual Reality (VR) at our workshop during Armageddon .Explore the latest VR technologies, learn hands-on techniques, and unlock the potential of this groundbreaking medium. Don't miss your chance to step into the future of storytelling and innovation!",
             "eventImage" : "https://picsum.photos/500",
