@@ -8,11 +8,11 @@ const sponsors = data.sponsors
 export function Sponsors(){
     return(
     <>
-    <div className="h-[30rem] w-full bg-black flex flex-col items-center justify-center overflow-hidden rounded-md">
+    <div className="h-[10rem] w-full bg-black flex flex-col items-center justify-center overflow-hidden rounded-md">
       <h1 className="md:text-5xl text-3xl lg:text-7xl font-bold text-center text-white relative z-20">
         Our Sponsors
       </h1>
-      <div className="w-[40rem] h-40 relative">
+      <div className="w-[40rem] h-24 relative">
 
         <div className="absolute inset-x-20 top-0 bg-gradient-to-r from-transparent via-indigo-500 to-transparent h-[2px] w-3/4 blur-sm" />
         <div className="absolute inset-x-20 top-0 bg-gradient-to-r from-transparent via-indigo-500 to-transparent h-px w-3/4" />
@@ -20,7 +20,7 @@ export function Sponsors(){
         <div className="absolute inset-x-60 top-0 bg-gradient-to-r from-transparent via-sky-500 to-transparent h-px w-1/4" />
  
         <SparklesCore
-         id="tsparticlesfullpage"
+         id="tsparticlesfullpag"
           background="transparent"
           minSize={0.4}
           maxSize={1}
@@ -33,7 +33,7 @@ export function Sponsors(){
       </div>
     </div>
       
-      <div className='"mt-8 grid grid-cols-1 grid-rows-1 gap-3 sm:grid-cols-3 md:mt-4 sm:gap-x-12"'>
+      <div className="mx-2 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-x-2 items-center justify-center">
             {sponsors.map((item, idx) => (
                 <SponsorCard
                 key={idx}
@@ -43,9 +43,7 @@ export function Sponsors(){
                 sponsorImg={item.sponsorImg}
                 />
              
-            ))}
-             
-            
+            ))}  
         </div>
         </>
     )

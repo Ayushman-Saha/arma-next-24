@@ -15,7 +15,7 @@ export function SponsorCard({
     sponsorDesc: String
 }) {
     return (
-    <div className="h-[30rem] w-full flex items-center justify-center ">
+    <div className="h-[30rem] w-auto sm:min-w-[30rem] md:min-w-[22rem] lg:min-w-[20rem] flex items-center justify-center ">
       <PinContainer
         title="/ui.aceternity.com"
         href="https://twitter.com/mannupaaji"

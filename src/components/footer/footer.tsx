@@ -14,18 +14,21 @@ function Footer() {
         
       </div>
       <hr className="my-6 border-gray-200 sm:mx-auto dark:border-gray-700 lg:my-8" />
-      <div className="sm:flex sm:items-center sm:justify-between">
+      <div className="lg:flex lg:items-center lg:justify-between">
           <a href="#" className="hover:underline">
-          <div className="mb-6 md:mb-0">    
+          <div className="flex justify-center mb-6 md:mb-0">    
               <span className={JoystickFont.className+" self-center text-2xl font-semibold whitespace-nowrap dark:text-white"}>Armageddon 2024 </span>
-      </div>
+          </div>
           </a>
-          <p className='text-white text-bold'>
-           For any queries contact us at <a className='underline' href='mailto:cnc@iiserb.ac.in'>cnc@iiserb.ac.in</a>
+          <div className='text-center my-4'>
+            <p className='text-white text-bold my-2'>
+                For any queries contact us at <a className='underline' href='mailto:cnc@iiserb.ac.in'>cnc@iiserb.ac.in</a>
             </p>    
-          <p className='text-white text-sm'>
-            Developed by <a href='https://www.linkedin.com/in/divya-sharma-285894258/' className='underline'>Divya</a> , <a href='https://www.linkedin.com/in/ayushman-saha/' className='underline'>Ayushman</a> and  <a href='https://www.linkedin.com/in/d33panshuraj/' className='underline'>Deepanshu</a>
-            </p>        
+            <p className='text-white text-sm my-2'>
+                Developed by <a href='https://www.linkedin.com/in/divya-sharma-285894258/' className='underline'>Divya</a> , <a href='https://www.linkedin.com/in/ayushman-saha/' className='underline'>Ayushman</a> and  <a href='https://www.linkedin.com/in/d33panshuraj/' className='underline'>Deepanshu</a>
+            </p>
+          </div>
+                  
     
           <div className="flex mt-4 sm:justify-center sm:mt-0">
               <a href="mailto:armageddon@iiserb.ac.in" className="text-gray-500 hover:text-gray-900 dark:hover:text-white">
