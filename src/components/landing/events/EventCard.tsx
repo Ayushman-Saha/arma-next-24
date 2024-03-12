@@ -5,6 +5,7 @@ import React from "react";
 import { CardBody, CardContainer, CardItem } from "../../effects/3dcard";
 import Link from "next/link";
 import { Url } from "next/dist/shared/lib/router/router";
+import { GradientCard } from "@/components/effects/GradientCard";
 
 export  default function EventCard({
   eventName,
@@ -19,8 +20,12 @@ export  default function EventCard({
   eventDesc : String
 }){
   return (
+   
+
+
     <CardContainer className="inter-var p-4">
-      <CardBody className="bg-gray-900 relative group/card dark:hover:shadow-2xl dark:hover:shadow-emerald-500/[0.1] dark:bg-zinc-900 dark:border-white/[0.2] border-black/[0.1] w-auto sm:min-w-[30rem] md:min-w-[22rem] lg:min-w-[20rem] h-fit rounded-xl p-6 border">
+       <GradientCard>
+      <CardBody className="bg-gray-900 relative group/card dark:hover:shadow-2xl dark:hover:shadow-emerald-500/[0.1] dark:bg-zinc-900 dark:border-white/[0.2] border-2 border-zinc-50  w-auto sm:min-w-[30rem] md:min-w-[22rem] lg:min-w-[20rem] h-fit rounded-xl p-6 ">
         <CardItem
           translateZ="50"
           className="text-xl font-bold text-neutral-600 p-2 dark:text-white"
@@ -55,6 +60,9 @@ export  default function EventCard({
       
         </div>
       </CardBody>
+     </GradientCard>
     </CardContainer>
+    
+   
   );
 }

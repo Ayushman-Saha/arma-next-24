@@ -4,11 +4,18 @@
 
 :root {
  background-color: #090e10;
+ 
+ 
+
 }
 
 :root::-webkit-scrollbar {
     display: none;
 }
+ body div {
+    cursor: url("../../assets/images/arma.png"), auto;
+
+ }
 
 #stickyScroll::-webkit-scrollbar {
     display: none;
