@@ -22,7 +22,7 @@ export  default function EventCard({
   return (
    
 
-
+    <Link href={href} > 
     <CardContainer className="inter-var p-4">
        <GradientCard>
       <CardBody className="bg-gray-900 relative group/card dark:hover:shadow-2xl dark:hover:shadow-emerald-500/[0.1] dark:bg-zinc-900 dark:border-white/[0.2] border-2 border-zinc-50  w-auto sm:min-w-[30rem] md:min-w-[22rem] lg:min-w-[20rem] h-fit rounded-xl p-6 ">
@@ -48,21 +48,21 @@ export  default function EventCard({
             alt="thumbnail"
           />
         </CardItem>
-        <div className="flex justify-between p-2 items-center mt-20">
-        <Link href={href} >    
-         <CardItem
+        {/* <div className="flex relative justify-between p-2 items-center mt-20"> */}
+        
+         {/* <CardItem
             translateZ={20}
             as="button"
-            className="px-4 py-2 rounded-xl bg-black dark:bg-white dark:text-black text-white text-xs font-bold"
+            className="px-4 py-2 rounded-xl bg-black dark:bg-white dark:text-black text-white text-xs font-bold relative z-50"
           >
           Visit Now -&gt;
-          </CardItem></Link>
+          </CardItem> */}
       
-        </div>
+        {/* </div> */}
       </CardBody>
      </GradientCard>
     </CardContainer>
-    
+    </Link>
    
   );
 }
