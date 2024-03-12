@@ -1,9 +1,9 @@
 import React from 'react'
 import { SparklesCore } from '../../effects/Sparkles'
 import EventCard from './EventCard'
-import { InfiniteCards } from '@/components/effects/InfiniteCards'
 import { NavigateEvents } from './NavigateEvents'
 import data from "../../../app/data.json"
+import EventGridLayout from '@/components/events/EventGridLayout'
 
 const events = data.events
 
@@ -38,21 +38,7 @@ function Events() {
       </div>
     </div>
     
-    <div className='mx-2 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-x-2 items-center justify-center'>
-      {events.map((item) => (
-          <li key={item.eventId}>
-            <EventCard 
-            eventDesc={item.eventDesc}
-            eventName={item.eventName}
-            href={`/events/${item.eventId}`}
-            eventImg={item.eventImage}
-            />
-          </li>
-        ))}
-        
-     
-    </div>
-
+    <EventGridLayout events={events}/>
     <div className='mt-16'>
         <NavigateEvents/>
     </div>
