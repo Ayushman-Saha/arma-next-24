@@ -46,6 +46,9 @@ export const CardContainer = ({
     containerRef.current.style.transform = `rotateY(0deg) rotateX(0deg)`;
   };
   return (
+   
+
+  
     <MouseEnterContext.Provider value={[isMouseEntered, setIsMouseEntered]}>
       <div
         className={cn(
@@ -62,7 +65,7 @@ export const CardContainer = ({
           onMouseMove={handleMouseMove}
           onMouseLeave={handleMouseLeave}
           className={cn(
-            "flex items-center justify-center relative transition-all duration-200 ease-linear",
+            "flex items-center justify-center relative  transition-all duration-200 ease-linear ",
             className
           )}
           style={{
@@ -73,6 +76,7 @@ export const CardContainer = ({
         </div>
       </div>
     </MouseEnterContext.Provider>
+    
   );
 };
 
