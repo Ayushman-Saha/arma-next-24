@@ -34,7 +34,7 @@ export function generateStaticParams() {
   const events = data.events;
  
   return events.map((event:any) => ({
-    eventId: event.eventName,
+    eventId: encodeURIComponent(event.eventName),
   }))
 }
 
