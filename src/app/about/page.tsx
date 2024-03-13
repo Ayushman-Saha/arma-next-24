@@ -2,7 +2,7 @@
 import type { Metadata } from "next";
 import { Spotlight } from '@/components/effects/Spotlight'
 import React from 'react' 
-import Teams from '@/components/about/Team'
+import About from "@/components/about/About"
 
 export const metadata: Metadata = {
   title: "Armageddon 2024",
@@ -34,7 +34,7 @@ function AboutPage() {
       
         </div> */}
         <div>
-            <Teams/>
+            <About/>
 
         </div>
     </div>

@@ -27,10 +27,10 @@ let members = [
     }
 ]
 
-function Teams(){
+function About(){
     return(
     <>
-    <div className="h-full  w-full bg-black flex flex-col items-center justify-center overflow-hidden rounded-md mt-[10rem]">
+    <div className="h-screen relative -z-10  w-full bg-black flex flex-col items-center justify-center overflow-hidden rounded-md mt-[10rem]">
       <div className="w-full absolute inset-0 h-full">
         <SparklesCore
           id="tsparticlesfullpage"
@@ -44,8 +44,8 @@ function Teams(){
       </div>
       
       <div className="h-full w-full bg-black flex flex-col items-center justify-center overflow-hidden rounded-md">
-      <h1 className="md:text-4xl text-2xl lg:text-6xl font-bold text-center text-white relative z-20">
-        About Armagaddon 
+      <h1 className="md:text-4xl text-2xl lg:text-6xl font-bold  text-center text-white relative z-20">
+        About Armageddon 
       </h1>
       <div className="w-[40rem] h-10 relative">
         {/* Gradients */}
@@ -59,7 +59,7 @@ function Teams(){
         <div className="absolute inset-0 w-full h-full bg-black [mask-image:radial-gradient(350px_200px_at_top,transparent_20%,white)]"></div>
       </div>
       
-      <p className='text-center text-lg p-4 text-gray-400 mx-4 md:mx-16 lg:mx-36'>
+      <p className='text-center text-lg font-semibold p-4 text-gray-400 mx-4 md:mx-16 lg:mx-36'>
      Armageddon is hosted by the Indian Institute of Science Education and Research (IISER) Bhopal. Armageddon, as the name suggests, is not just an event; it&apos;s a battleground for the brightest minds, a place where intellect meets innovation, and creativity knows no bounds. This year, ARMAGEDDON transcends traditional boundaries to bring you an exhilarating blend of technology, science, and entertainment. We aim to provide a platform for students, professionals, and tech enthusiasts from across the nation to showcase their genius, exchange ideas, and push the envelope of what&apos;s possible.
     </p>
     
@@ -78,7 +78,7 @@ function Teams(){
         {/* Radial Gradient to prevent sharp edges */}
         <div className="absolute inset-0 w-full h-full bg-black [mask-image:radial-gradient(350px_200px_at_top,transparent_20%,white)]"></div>
       </div>
-      <p className='text-center text-lg p-4 text-gray-400 mx-4 md:mx-16 lg:mx-36'>
+      <p className='text-center text-lg font-semibold p-4 text-gray-400 mx-4 md:mx-16 lg:mx-36'>
         At CNC we are committed to building a professional team to work in favour of IISERB&apos;s interests. We thrive to make IISERB self dependent and work for its betterment. Who are we? Computing and Networking Council (CNC) aims primarily at management, conduct and promotion of the Computing and Networking activities in the institute.
       </p>
      </div>
@@ -118,4 +118,4 @@ function Teams(){
     )
 }
 
-export default Teams
+export default About
