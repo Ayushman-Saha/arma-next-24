@@ -18,8 +18,7 @@ function Footer() {
           <a href="#" className="hover:underline">
           <div className="flex  flex-col justify-center mb-6 md:mb-0">    
               <span className={JoystickFont.className+" self-center text-2xl font-bold whitespace-nowrap dark:text-white"}>Armageddon 2024 </span>
-              <p className=" self-center text-lg font-semibold whitespace-nowrap dark:text-white">Convenor: Srutanik Bhaduri</p>
-
+            
           </div>
           </a>
           <div className='text-center my-4'>
