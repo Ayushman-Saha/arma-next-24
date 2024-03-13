@@ -30,7 +30,7 @@ let members = [
 function Teams(){
     return(
     <>
-    <div className="h-full relative w-full bg-black flex flex-col items-center justify-center overflow-hidden rounded-md mt-[10rem]">
+    <div className="h-full  w-full bg-black flex flex-col items-center justify-center overflow-hidden rounded-md mt-[10rem]">
       <div className="w-full absolute inset-0 h-full">
         <SparklesCore
           id="tsparticlesfullpage"

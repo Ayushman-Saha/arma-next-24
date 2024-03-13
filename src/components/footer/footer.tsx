@@ -7,7 +7,7 @@ const JoystickFont = localFont({ src: '../landing/joystix monospace.otf' })
 function Footer() {
     return (
       <>
-<footer suppressHydrationWarning={true} className="bg-white dark:bg-black">
+<footer suppressHydrationWarning={true} className="bg-white dark:bg-black z-10">
     <div className="mx-auto w-full max-w-screen-xl p-4 py-6 lg:py-8">
         <div className="md:flex md:justify-between">
          
