@@ -2,6 +2,7 @@
 import React from "react";
 import { PinContainer } from "../../effects/PinEffect"; 
 import { Url } from "next/dist/shared/lib/router/router";
+import Image from "next/image";
 
 export function SponsorCard({
     sponsorName,
@@ -25,11 +26,19 @@ export function SponsorCard({
             {sponsorName}
           </h3>
           <div className="text-base !m-0 !p-0 font-normal">
-            <span className="text-slate-500 ">
+            <span className="text-slate-500">
               {sponsorDesc}
             </span>
           </div>
-          <div className="flex flex-1 w-full rounded-lg mt-4 bg-gradient-to-br from-violet-500 via-purple-500 to-blue-500" />
+          <div >
+          <Image
+            src={sponsorImg}
+            height="1000"
+            width="1000"
+            className="h-60 w-full object-cover rounded-xl group-hover/card:shadow-xl"
+            alt="thumbnail"
+          />
+          </div>
         </div>
       </PinContainer>
     </div>
