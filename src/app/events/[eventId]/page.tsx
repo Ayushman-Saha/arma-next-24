@@ -30,11 +30,12 @@ export const metadata: Metadata = {
     "regLink" : string,
     "rulebook" : string
 }
+const events = data.events;
 export function generateStaticParams() {
-  const events = data.events;
+  
  
   return events.map((event:any) => ({
-    eventId: encodeURIComponent(event.eventName),
+    eventId:event.eventName,
   }))
 }
 
@@ -44,6 +45,7 @@ export default function EventDetailsPage({params} : {params : {eventId : string}
       <>
         <div className="h-[80rem] w-full rounded-md bg-neutral-950 relative flex flex-col items-center justify-center antialiased">
         <BackgroundBeams />
+        console.log(event);
         <IndividualEvent event={event} />
         </div>
       </>
