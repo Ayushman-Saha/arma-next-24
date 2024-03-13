@@ -64,7 +64,7 @@ function About(){
     </p>
     
       </div>
-     <div className="h-full w-full bg-black flex flex-col items-center justify-center overflow-hidden rounded-md mt-16">
+     <div className="h-full w-full bg-black flex flex-col items-center justify-center overflow-hidden rounded-md">
       <h1 className="md:text-2xl text-4xl lg:text-6xl font-bold text-center text-white relative z-20">
         About CNC 
       </h1>

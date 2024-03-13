@@ -38,11 +38,11 @@ const Team = () => {
         Team
       </h1>
      
-      <div className='mx-2 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-x-2 items-center justify-center'>
+      <div className='mx-1  grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-x-3 items-center justify-center'>
       {team.map((item) => (
         
        
-            <TeamCard
+            <TeamCard key={item.name}
             name={item.name}
             desc={item.desc}
            pic={item.pic}
