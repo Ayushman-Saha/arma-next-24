@@ -9,6 +9,10 @@
 
 }
 
+div::-webkit-scrollbar{
+    display: none;
+}
+
 :root::-webkit-scrollbar {
     display: none;
 }

@@ -33,7 +33,7 @@ const Team = () => {
           particleColor="#FFFFFF"
         />
       </div>
-      <div className="h-full w-full bg-black flex flex-col items-center justify-center overflow-hidden rounded-md">
+      <div className="h-screen w-full bg-black flex flex-col items-center justify-center overflow-scroll rounded-md">
       <h1 className="md:text-4xl text-2xl lg:text-6xl font-bold  text-center text-white relative z-20">
         Team
       </h1>
