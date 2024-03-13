@@ -9,7 +9,7 @@ import {
 import { cn } from "@/utils/cn";
 import Link from "next/link";
 import Image from "next/image";
-import { IconCalendarEvent, IconHome, IconMessage, IconUser } from "@tabler/icons-react";
+import { IconCalendarEvent, IconHome, IconMessage, IconUser, IconUsersGroup } from "@tabler/icons-react";
 import ArmaIcon from "../../../assets/images/arma.png"
 
 
@@ -37,6 +37,13 @@ const navItems = [
       link: "/contact",
       icon: (
         <IconMessage className="h-4 w-4 text-neutral-500 dark:text-white" />
+      ),
+    },
+    {
+      name: "Team",
+      link: "/team",
+      icon: (
+        <IconUsersGroup className="h-4 w-4 text-neutral-500 dark:text-white" />
       ),
     }
   ];

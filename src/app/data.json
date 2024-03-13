@@ -142,6 +142,22 @@
             "insta": "",
             "desc": "Lets do it"
 
+        },
+        {
+            "id" : 2,
+            "name" : "Ayushman Saha",
+            "pic" :"https://picsum.photos/500",
+            "linkedin": "",
+            "insta": "",
+            "desc": "WTF!"
+        },
+        {
+            "id" : 3,
+            "name" : "Deepu",
+            "pic" :"https://picsum.photos/500",
+            "linkedin": "",
+            "insta": "",
+            "desc": "Why am i doing this ?"
         }
     ]
 }

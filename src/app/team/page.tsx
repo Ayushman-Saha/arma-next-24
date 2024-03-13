@@ -21,7 +21,7 @@ export const metadata: Metadata = {
 const Team = () => {
   return (
     <>
-    <div className="-z-10 h-screen relative w-full flex flex-col items-center justify-center overflow-hidden rounded-md">
+    <div className="h-screen relative w-full flex flex-col items-center justify-center overflow-hidden rounded-md">
       <div className="w-full absolute inset-0 h-screen">
         <SparklesCore
           id="tsparticlesfullpage"
@@ -33,8 +33,29 @@ const Team = () => {
           particleColor="#FFFFFF"
         />
       </div>
-   
+      <div className="h-full w-full bg-black flex flex-col items-center justify-center overflow-hidden rounded-md">
+      <h1 className="md:text-4xl text-2xl lg:text-6xl font-bold  text-center text-white relative z-20">
+        Team
+      </h1>
+     
+      <div className='mx-2 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-x-2 items-center justify-center'>
+      {team.map((item) => (
+        
+       
+            <TeamCard
+            name={item.name}
+            desc={item.desc}
+           pic={item.pic}
+           linkedin={item.linkedin}
+           insta={item.insta}
+            />
+          
+      
+        ))}
     </div>
+      </div>
+    </div>
+    
     </>
   )
 }

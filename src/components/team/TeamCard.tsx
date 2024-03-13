@@ -23,25 +23,11 @@ export  default function TeamCard({
    
 
     
-    <CardContainer className="inter-var p-4">
+    <CardContainer className="inter-var p-4 z-10">
    
-      <CardBody className="bg-gray-900 relative group/card dark:hover:shadow-2xl dark:hover:shadow-emerald-500/[0.1] dark:bg-zinc-900 dark:border-white/[0.2] border-2 border-zinc-50  w-auto sm:min-w-[30rem] md:min-w-[22rem] lg:min-w-[20rem] h-fit rounded-xl p-6 ">
-    
-        <CardItem
-          translateZ="50"
-          className="text-xl font-bold text-neutral-600 p-2 dark:text-white"
-        >
-          {name}
-        </CardItem>
-       
-        <CardItem
-          as="p"
-          translateZ="60"
-          className="text-neutral-500 text-sm max-w-sm p-2 mt-2 dark:text-neutral-300"
-        >
-        {desc}
-        </CardItem>
-        <CardItem translateZ="100" className="w-full mt-4">
+      <CardBody className="bg-gray-900 relative group/card dark:hover:shadow-2xl dark:hover:shadow-emerald-500/[0.1] dark:bg-zinc-900 border-2 border-white  w-auto sm:min-w-[30rem] md:min-w-[22rem] lg:min-w-[20rem] h-fit rounded-xl p-6">
+
+      <CardItem translateZ="100" className="w-full mt-4">
           <Image
             src={pic}
             height="1000"
@@ -50,7 +36,23 @@ export  default function TeamCard({
             alt="profile picture"
           />
         </CardItem>
-        <div className="flex relative justify-between p-2 items-center mt-20"> */
+    
+        <CardItem
+          translateZ="50"
+          className="text-xl font-bold text-neutral-600 p-2 mt-2 dark:text-white"
+        >
+          {name}
+        </CardItem>
+       
+        <CardItem
+          as="p"
+          translateZ="60"
+          className="text-neutral-500 text-sm max-w-sm p-1 mt-2 dark:text-neutral-300"
+        >
+        {desc}
+        </CardItem>
+      
+        <div className="flex relative justify-between p-2 items-center mt-2"> */
         
           <CardItem
             translateZ={20}
