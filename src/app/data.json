@@ -10,7 +10,8 @@
             "venue" : "LHC Atrium",
             "regLink" : "/#",
             "rulebook" : "/#",
-            "type" : "competition"
+            "type" : "competition",
+            "isFeatured" : true
         }, 
         {
             "eventId" : 2,
@@ -22,7 +23,8 @@
             "venue" : "LHC Atrium",
             "regLink" : "/#",
             "rulebook" : "/#",
-            "type" : "featured"
+            "type" : "featured",
+            "isFeatured" : true
         },
 
         {
@@ -35,7 +37,8 @@
             "venue" : "LHC Atrium",
             "regLink" : "/#",
             "rulebook" : "/#",
-            "type" : "competition"
+            "type" : "competition",
+            "isFeatured" : false
         },
 
         {
@@ -48,7 +51,8 @@
             "venue" : "TBD",
             "regLink" : "/#",
             "rulebook" : "/#",
-            "type" : "featured"
+            "type" : "featured",
+            "isFeatured" : true
         },
         {
             "eventId" : 4,
@@ -60,7 +64,8 @@
             "venue" : "Studio Air",
             "regLink" : "/#",
             "rulebook" : "/#",
-            "type": "workshop"
+            "type": "workshop",
+            "isFeatured" : false
         },
         {
             "eventId" : 5,
@@ -72,7 +77,8 @@
             "venue" : "Studio Air",
             "regLink" : "/#",
             "rulebook" : "/#",
-            "type": "workshop"
+            "type": "workshop",
+            "isFeatured" : false
         },
       
         {
@@ -85,9 +91,9 @@
             "venue" : "L-5 LHC",
             "regLink" : "/#",
             "rulebook" : "/#",
-            "type" : "workshop"
+            "type" : "workshop",
+            "isFeatured" : false
         },
-        
         {
             "eventId" : 6,
             "eventName" : "Guest Lecture",
@@ -98,7 +104,8 @@
             "venue" : "L-5 LHC",
             "regLink" : "/#",
             "rulebook" : "/#",
-            "type" : "talk"
+            "type" : "talk",
+            "isFeatured" : false
         }
        
     ],

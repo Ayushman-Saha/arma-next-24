@@ -9,7 +9,7 @@ import data from "../data.json"
 import useScreenSize from '@/hooks/useScreenSize'
 import EventGridLayout from '@/components/events/EventGridLayout'
 const competitiveEvents = data.events.filter((event) => event.type === "competition")
-const featuredEvents = data.events.filter((event) => event.type === "featured")
+const featuredEvents = data.events.filter((event) => event.isFeatured === true)
 const workshopEvents = data.events.filter((event) => event.type === "workshop")
 const talkEvents = data.events.filter((event) => event.type === "talk")
 

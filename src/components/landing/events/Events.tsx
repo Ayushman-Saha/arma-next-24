@@ -5,7 +5,7 @@ import { NavigateEvents } from './NavigateEvents'
 import data from "../../../app/data.json"
 import EventGridLayout from '@/components/events/EventGridLayout'
 
-const events = data.events
+const events = data.events.filter((event) => event.isFeatured === true)
 
 function Events() {
   return (
