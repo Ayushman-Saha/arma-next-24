@@ -2,6 +2,7 @@
 import Image from "next/image";
 import React from "react";
 import { CardBody, CardContainer, CardItem } from "../effects/3dcard";
+import { IconBrandInstagram,IconBrandLinkedin } from "@tabler/icons-react";
 import Link from "next/link";
 import { Url } from "next/dist/shared/lib/router/router";
 
@@ -47,20 +48,31 @@ export  default function TeamCard({
         <CardItem
           as="p"
           translateZ="60"
-          className="text-neutral-500 text-sm max-w-sm p-1 mt-2 dark:text-neutral-300"
+          className="text-neutral-500 text-base max-w-sm p-1 mt-2 dark:text-neutral-300"
         >
         {desc}
         </CardItem>
       
-        <div className="flex relative justify-between p-2 items-center mt-2"> */
+        <div className="flex relative items-center mt-2"> 
         
           <CardItem
             translateZ={20}
             as="button"
-            className="px-4 py-2 rounded-xl bg-black dark:bg-white dark:text-black text-white text-xs font-bold relative z-50"
+            className=""
           >
-          Visit Now -&gt;
+            <Link href={insta} className="" >
+              <IconBrandInstagram className="h-8 w-8 text-white"/>
+            </Link>
           </CardItem> 
+          <CardItem
+            translateZ={20}
+            as="button"
+            className=""
+          >
+            <Link href={linkedin} className="" >
+              <IconBrandLinkedin className="h-8 w-8 mx-1 text-white"/>
+            </Link>
+          </CardItem>
       
         </div>
       </CardBody>
