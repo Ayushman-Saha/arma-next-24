@@ -45,6 +45,13 @@ const navItems = [
       icon: (
         <IconUsersGroup className="h-4 w-4 text-neutral-500 dark:text-white" />
       ),
+    },
+    {
+      name: "Schedule",
+      link: "/schedule",
+      icon: (
+        <IconCalendarEvent className="h-4 w-4 text-neutral-500 dark:text-white" />
+      ),
     }
   ];
 
