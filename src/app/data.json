@@ -71,7 +71,7 @@
             "eventId" : 5,
             "eventName" : "3D Modeling Workshop",
             "eventDesc" : "An exclusive 3D Modeling Workshop led by experts at our tech fest. The Participants will learn essential techniques,  explore innovative tools, and unleash your creativity in this  hands-on session. The software to be used in this workshop is Beegraphy. A Fantastic opportunity to hone your skills, expand your knowledge, and take your creations to the next level.",
-            "eventImage" : "https://picsum.photos/500",
+            "eventImage" : "https://arma-data.pages.dev/images/events/3d.png",
             "regDeadline" : "2024-01-01T12:12:34+00:00",
             "eventDate" : "2024-03-17T12:12:34+00:00",
             "venue" : "Studio Air",
