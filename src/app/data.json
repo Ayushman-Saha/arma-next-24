@@ -17,7 +17,7 @@
             "eventId" : 2,
             "eventName" : "Tech Expo",
             "eventDesc" : "Tech Expo - the ultimate gathering for innovators, entrepreneurs, and tech enthusiasts alike! It involves a vibrant ecosystem of cutting-edge startups, captivating tech pitches, engaging tech stalls and insightful talks by tech entrepreneurs . Whether you're looking to network, explore groundbreaking innovations, or showcase your own tech venture, Tech Expo is your platform to conquer",
-            "eventImage" : "https://picsum.photos/500",
+            "eventImage" : "https://arma-data.pages.dev/images/events/techExpo.png",
             "regDeadline" : "2024-01-01T12:12:34+00:00",
             "eventDate" : "2024-01-01T12:12:34+00:00",
             "venue" : "LHC Atrium",
@@ -52,7 +52,7 @@
             "regLink" : "/#",
             "rulebook" : "/#",
             "type" : "featured",
-            "isFeatured" : true
+            "isFeatured" : false
         },
         {
             "eventId" : 4,
@@ -70,10 +70,10 @@
         {
             "eventId" : 5,
             "eventName" : "3D Modeling Workshop",
-            "eventDesc" : "An exclusive 3D Modeling Workshop led by experts at our tech fest. The Participants will learn essential techniques,  explore innovative tools, and unleash your creativity in this  hands-on session. The software to be used in this workshop is ‘Blender’. A Fantastic opportunity to hone your skills, expand your knowledge, and take your creations to the next level.",
+            "eventDesc" : "An exclusive 3D Modeling Workshop led by experts at our tech fest. The Participants will learn essential techniques,  explore innovative tools, and unleash your creativity in this  hands-on session. The software to be used in this workshop is Beegraphy. A Fantastic opportunity to hone your skills, expand your knowledge, and take your creations to the next level.",
             "eventImage" : "https://picsum.photos/500",
             "regDeadline" : "2024-01-01T12:12:34+00:00",
-            "eventDate" : "2024-01-01T12:12:34+00:00",
+            "eventDate" : "2024-03-17T12:12:34+00:00",
             "venue" : "Studio Air",
             "regLink" : "/#",
             "rulebook" : "/#",
@@ -95,7 +95,7 @@
             "isFeatured" : false
         },
         {
-            "eventId" : 6,
+            "eventId" : 8,
             "eventName" : "Guest Lecture",
             "eventDesc" : "Join us for a captivating Guest Lecture at our tech fest! Participants will get a chance to engage with industry leaders, innovators, and experts as they share valuable insights on the latest trends and technologies shaping our world.",
             "eventImage" : "https://picsum.photos/500",
@@ -105,8 +105,61 @@
             "regLink" : "/#",
             "rulebook" : "/#",
             "type" : "talk",
+            "isFeatured" : true
+        },
+        {
+            "eventId" : 9,
+            "eventName" : "EnigmART",
+            "eventDesc" : "Welcome to The AI Art Recreation Challenge! Your Task? Simply guess the prompts that inspired these remarkable artworks and recreate them using your own artistic flair!",
+            "eventImage" : "https://arma-data.pages.dev/images/events/enigmArt.png",
+            "regDeadline" : "2024-01-01T12:12:34+00:00",
+            "eventDate" : "2024-01-01T12:12:34+00:00",
+            "venue" : "online",
+            "regLink" : "/#",
+            "rulebook" : "/#",
+            "type" : "competition",
+            "isFeatured" : false
+        },
+        {
+            "eventId" : 10,
+            "eventName" : "Infernal Fiction",
+            "eventDesc" : "Infernal Fiction, a story-writing competition which fuses brain and bot, where your inner Kalidasa meets cutting-edge AI tools to create spell-bounding tales, filled with imagination and wonder.",
+            "eventImage" : "https://arma-data.pages.dev/images/events/infernalFiction.png",
+            "regDeadline" : "2024-01-01T12:12:34+00:00",
+            "eventDate" : "2024-01-01T12:12:34+00:00",
+            "venue" : "online",
+            "regLink" : "/#",
+            "rulebook" : "/#",
+            "type" : "competition",
+            "isFeatured" : false
+        },
+        {
+            "eventId" : 11,
+            "eventName" : "Code Clash",
+            "eventDesc" : "Code, Conquer, and Claim Victory! Join our Intra-College Coding Clash where 2 coders battle it out byte by byte in a 1 vs 1 to reign supreme in the realm of competitive programming!",
+            "eventImage" : "https://arma-data.pages.dev/images/events/codeClash.png",
+            "regDeadline" : "2024-01-01T12:12:34+00:00",
+            "eventDate" : "2024-03-024T12:12:34+00:00",
+            "venue" : "LHC Lawn",
+            "regLink" : "/#",
+            "rulebook" : "/#",
+            "type" : "competition",
+            "isFeatured" : false
+        },
+        {
+            "eventId" : 12,
+            "eventName" : "Typing Frenzy",
+            "eventDesc" : "Fingers poised, minds focused, let the keys tap out our symphony of speed.",
+            "eventImage" : "https://arma-data.pages.dev/images/events/typingFrenzy.png",
+            "regDeadline" : "2024-01-01T12:12:34+00:00",
+            "eventDate" : "2024-03-021T12:12:34+00:00",
+            "venue" : "LHC Atrium",
+            "regLink" : "/#",
+            "rulebook" : "/#",
+            "type" : "competition",
             "isFeatured" : false
         }
+
        
     ],
     "sponsors" : [
@@ -147,7 +200,8 @@
             "pic" :"https://picsum.photos/500",
             "linkedin": "",
             "insta": "",
-            "desc": "Lets do it"
+            "desc": "Lets do it",
+            "desig": "Tech Team"
 
         },
         {
@@ -156,7 +210,8 @@
             "pic" :"https://picsum.photos/500",
             "linkedin": "",
             "insta": "",
-            "desc": "WTF!"
+            "desc": "WTF!",
+            "desig": "Tech Team"
         },
         {
             "id" : 3,
@@ -164,7 +219,8 @@
             "pic" :"https://picsum.photos/500",
             "linkedin": "",
             "insta": "",
-            "desc": "Why am i doing this ?"
+            "desc": "Why am i doing this ?",
+            "desig": "Tech Team"
         }
     ]
 }

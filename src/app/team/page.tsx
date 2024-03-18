@@ -48,6 +48,8 @@ const Team = () => {
            pic={item.pic}
            linkedin={item.linkedin}
            insta={item.insta}
+           desig={item.desig}
+
             />
           
       

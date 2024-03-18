@@ -41,6 +41,15 @@ function Contact() {
           <IconBrandGmail className="h-8 w-8  text-white inline mx-2"/>
           </Link>
         </p>
+        <p className='m-8'>
+          <em className='font-semibold text-center px-4'>
+            Co-Convenor :
+          </em>
+         Shailesh Kachhi
+          <Link href="mailto:shailesh22@iiserb.ac.in" className="">
+          <IconBrandGmail className="h-8 w-8  text-white inline mx-2"/>
+          </Link>
+        </p>
         <p className='mt-2 text-wrap'>
           Computing and Networking Council (CNC), Indian Institute of Science Education and Research Bhopal (IISERB), Bhopal Bypass Road, Bhauri Bhopal 462 066. Madhya Pradesh, INDIA.
         </p>
