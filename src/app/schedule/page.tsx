@@ -10,40 +10,37 @@ import React, { useState, useEffect } from 'react';
       "day": "Day1",
       "events": [
         {
-          "title": "ArmaCode Workshop",
-          "startTime": "10:00AM",
-          "endTime": "11:00AM",
-          "description": "Learn the basics of ArmaCode development."
+          "title": " Opening Ceramony",
+          "startTime": "5:00PM",
+          "endTime": "10:00PM",
+          "venue":"L5" ,
+
+          "description": " An evening full of entertainment"
         },
-        {
-          "title": "Lunch Break",
-          "startTime": "12:00PM",
-          "endTime": "1:00PM",
-          "description": "Enjoy a well-deserved break!"
-        },
-        {
-          "title": "Advanced ArmaCode Techniques",
-          "startTime": "1:00PM",
-          "endTime": "2:00PM",
-          "description": "Take your ArmaCode skills to the next level."
-        }
       ]
     },
     {
       "day": "Day 2",
       "events": [
         {
-          "title": "Project Q&A",
-          "startTime": "9:00AM",
-          "endTime": "10:00AM",
+          "title": "Pranjal Kamra's Talk",
+          "startTime": "2:00PM",
+          "endTime": "4:3PM",
+          "venue": "",
           "description": "Get answers to your project-related questions."
         },
         {
-          "title": "ArmaCode Hackathon",
-          "startTime": "10:00AM",
-          "endTime": "4:00PM",
+          "title": "Photography Workshop [Light Tutorial]",
+          "startTime": "5:00PM",
+          "endTime": "8:00PM",
           "description": "Put your skills to the test and collaborate on exciting projects."
-        }
+        },
+        {
+          "title": "Photography Workshop [Light Tutorial]",
+          "startTime": "5:00PM",
+          "endTime": "8:00PM",
+          "description": "Put your skills to the test and collaborate on exciting projects."
+        },
       ]
     },
     {

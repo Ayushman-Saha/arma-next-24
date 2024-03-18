@@ -29,6 +29,7 @@ export const metadata: Metadata = {
     "venue" : string,
     "regLink" : string,
     "rulebook" : string
+    "type": string
 }
 const events = data.events;
 export function generateStaticParams() {
@@ -99,20 +100,29 @@ function IndividualEvent({event} : {event: EventProps}) {
               <p className="text-gray-300">{`${eventDate.toLocaleTimeString('en-IN',{timeZoneName: "short"})}`}</p>
             </div>
           </div>
-          <div className="flex items-center justify-center gap-2 border-b border-gray-300 py-8 md:pr-12 lg:pr-12">
-          <a href={`${event.rulebook}`} target="_blank">
-            <button
-            type="submit"
-              className={cn("h-16 w-full px-16 rounded-md py-2 text-sm font-semibold bg-white text-black shadow-smfocus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-black")}
+          
+        
+          {
+             event.type === "competition" ? (
+               <div className="flex items-center justify-center gap-2 border-b border-gray-300 py-8 md:pr-12 lg:pr-12">
+              <a href={event.rulebook} target="_blank">
+              <button
+               type="submit"
+               className={cn("h-16 w-full px-16 rounded-md py-2 text-sm font-semibold bg-white text-black shadow-sm focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-black")}
             >
              Rulebook
             </button>
             </a>
-            <div className="w-1/2 mx-8">
-                <p className="text-gray-100">Registration Deadline : {regDeadline.toLocaleDateString('en-IN')}</p>
+             <div className="w-1/2 mx-8">
+             <p className="text-gray-100">Registration Deadline : {regDeadline.toLocaleDateString('en-IN')}</p>
             </div>
-          </div>
-          <div className="py-6 ">
+            </div>
+           ) : null
+         }
+
+         {
+            event.type ==="competition" ? (
+              <div className="py-6 ">
           
 
             <a href={((regDeadline.getTime() - currentDate.getTime()) > 0 ? `${event.regLink}` : "")}>
@@ -124,7 +134,13 @@ function IndividualEvent({event} : {event: EventProps}) {
             </button>
             </a>
          
-          </div>
+          </div> 
+
+            ): null
+         }
+         
+         
+          
          
         </div>
       </div>
