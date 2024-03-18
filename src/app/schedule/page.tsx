@@ -1,7 +1,8 @@
 "use client";
 import EventSchedule from '@/components/events/EventSchedule'
 import { SparklesCore } from "@/components/effects/Sparkles"
-import React, { useState, useEffect } from 'react';
+import React from 'react';
+import Data from "../data.json";
 
 
  const data = {
@@ -78,19 +79,19 @@ import React, { useState, useEffect } from 'react';
 
 const SchedulePage = () => {
  
-    const [events, setEvents] = useState(null);
-    const [isLoading, setLoading] = useState(true)
-    useEffect(() => {
-      fetch('https://arma-data.pages.dev/data.json')
-        .then((res) => res.json())
-        .then((data) => {
-          setEvents(data)
-          setLoading(false)
-        })
-    }, [])
+    // const [events, setEvents] = useState(null);
+    // const [isLoading, setLoading] = useState(true)
+    // useEffect(() => {
+    //   fetch('https://arma-data.pages.dev/data.json')
+    //     .then((res) => res.json())
+    //     .then((data) => {
+    //       setEvents(data)
+    //       setLoading(false)
+    //     })
+    // }, [])
    
-    if (isLoading) return <p>Loading...</p>
-    if (!data) return <p>No data </p>
+    // if (isLoading) return <p>Loading...</p>
+    // if (!data) return <p>No data </p>
  
   
 
@@ -111,7 +112,7 @@ const SchedulePage = () => {
 
 <div className="h-full w-full bg-black flex flex-col items-center justify-center overflow-hidden rounded-md">
   
-<EventSchedule events={events} />
+<EventSchedule events={data} />
 
 </div>
 
