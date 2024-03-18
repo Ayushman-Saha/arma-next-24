@@ -34,7 +34,7 @@ const Team = () => {
         />
       </div>
       <div className="h-full container w-full bg-black flex flex-col items-center justify-center overflow-scroll rounded-md">
-      <h1 className="md:text-4xl text-2xl lg:text-6xl font-bold mt-10 text-center text-white relative z-20">
+      <h1 className="md:text-4xl text-2xl lg:text-6xl font-bold text-center text-white relative z-20 h-[40rem] mt-48">
         Team
       </h1>
      
