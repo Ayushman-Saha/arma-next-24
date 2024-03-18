@@ -221,6 +221,217 @@
             "insta": "",
             "desc": "Why am i doing this ?",
             "desig": "Tech Team"
-        }
-    ]
+        },
+        {
+            "id": 4,
+            "name": "Shailesh Kachhi ",
+            "pic": "https://arma-data.pages.dev/images/team/IMG_20240314_223851%20-%20Shailesh%20Kachhi%2022290.jpg",
+            "linkedin": "https://www.linkedin.com/in/shailesh-kachhi-681a041a2",
+            "insta": "https://instagram.com/shailesh&576",
+            "desc": ".",
+            "desig": "CoConvener"
+        },
+        {
+            "id": 5,
+            "name": "Akshat Gudesar ",
+            "pic": "https://arma-data.pages.dev/images/team/IMG20211231160447%20-%20Akshat%20Gudesar%2021023.jpg",
+            "linkedin": "No LinkedIn ",
+            "insta": "@akshatgudesar",
+            "desc": "40 year Old in a 20 year Old's Body",
+            "desig": "CoConvener"
+        },
+        {
+            "id": 6,
+            "name": "Avik Hawlader",
+            "pic": "https://arma-data.pages.dev/images/1X8bHHc1PlILJ38WCzRTAH3BF1lFkMR--",
+            "linkedin": "https://www.linkedin.com/in/avik-hawlader-45965a15b?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app",
+            "insta": "https://www.instagram.com/1avik0?igsh=eDI0d20xZzdiMXN6",
+            "desc": "I know the business",
+            "desig": "CNC Vice Secretary "
+        },
+        
+            {
+                "id": 1,
+                "name": "Arpan Jain",
+                "pic": "https://arma-data.pages.dev/images/team/Screenshot_2024-03-12-21-13-24-724-edit_com.instagram.android%20-%20Arpan%20Jain%2022056.jpg",
+                "linkedin": "https://www.linkedin.com/in/arpan-jain-iiserb",
+                "insta": "https://www.instagram.com/jr_arpan?igsh=MWFxMTNjMWxocDc1dg==",
+                "desc": "Tech is life and life is Tech",
+                "desig": ""
+            },
+            {
+                "id": 2,
+                "name": "Hemant Meena",
+                "pic": "https://arma-data.pages.dev/images/team/DSC07160%20-%20Hemant%20Meena%2021124.JPG",
+                "linkedin": "https://www.linkedin.com/in/hemant-meena-2a5540270?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+                "insta": "https://www.instagram.com/hemant._meena_?igsh=MTV3YTJqOG5hNGhieA==",
+                "desc": "Sarcastic ",
+                "desig": ""
+            },
+            {
+                "id": 3,
+                "name": "Shubham Mohanty",
+                "pic": "https://arma-data.pages.dev/images/team/PXL_20231227_090142395.PORTRAIT~2%20-%20Shubham%20Mohanty%2023319.jpg",
+                "linkedin": "https://in.linkedin.com/in/shubham-mohanty-83723b237",
+                "insta": "https://www.instagram.com/beteloper?igsh=MTVqNnIxcGt3MXZ4Mw==",
+                "desc": "Master of procrastination, shortcut is [Ctrl+P]",
+                "desig": ""
+            },
+            {
+                "id": 4,
+                "name": "Anoushka Pawan ",
+                "pic": "https://arma-data.pages.dev/images/team/IMG-20230526-WA0090%20-%20Anoushka%20Pawan%2022045.jpg",
+                "linkedin": "https://www.linkedin.com/in/anoushka-pawan-b304831b0?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+                "insta": "https://www.instagram.com/anoushkapawan?igsh=MXZwMTA0dWYydDQ2Ng==",
+                "desc": "Margarita makes me sway :)",
+                "desig": ""
+            },
+            {
+                "id": 5,
+                "name": "Yash Choudhary",
+                "pic": "https://arma-data.pages.dev/images/team/IMG-20240313-WA0005%20-%20Yash%20Choudhary%2022379.jpg",
+                "linkedin": "https://in.linkedin.com/in/yashchoudharybsn",
+                "insta": "https://www.instagram.com/yash.awesome/",
+                "desc": "You had me at hello.",
+                "desig": ""
+            },
+            {
+                "id": 6,
+                "name": "Divya Sharma",
+                "pic": "https://arma-data.pages.dev/images/team/WhatsApp%20Image%202024-03-13%20at%2017.54.53_b5438f4f%20-%20Divya%20Sharma%2023111.jpg",
+                "linkedin": "https://www.linkedin.com/in/divya-sharma-285894258/",
+                "insta": "https://www.instagram.com/divyasharma_5505/",
+                "desc": "Honesty, I dont even know...",
+                "desig": ""
+            },
+            {
+                "id": 7,
+                "name": "Ayushman Saha",
+                "pic": "https://arma-data.pages.dev/images/team/arma%20-%20Ayushman%20Saha%2023078.jpg",
+                "linkedin": "https://www.linkedin.com/in/ayushman-saha/",
+                "insta": "https://www.instagram.com/_ayushman_saha_/",
+                "desc": "I'm not lazy, I'm in energy-saving mode.",
+                "desig": ""
+            },
+            {
+                "id": 8,
+                "name": "Ananya Kushwaha ",
+                "pic": "https://arma-data.pages.dev/images/team/IMG_7740%20-%20Ananya%20Kushwaha%2022038.jpeg",
+                "linkedin": "NA",
+                "insta": "https://www.instagram.com/mostly.ananyaa?igsh=eGtpcjkyendxajJz",
+                "desc": "I'm like a human pink highlighter, adding a pop of fun to every page of life.",
+                "desig": ""
+            },
+            {
+                "id": 9,
+                "name": "Varsha Meena ",
+                "pic": "https://arma-data.pages.dev/images/team/InShot_20240314_000116336%20-%20Varsha%20Meena%2022360.jpg",
+                "linkedin": "https://www.linkedin.com/in/varsha-meena-2214a8271?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+                "insta": "https://www.instagram.com/mee_varsha_25?igsh=MW11dHFzOWQxaXRteQ==",
+                "desc": "\"I'm a walking paradox: simple yet endlessly complex.\"",
+                "desig": ""
+            },
+            {
+                "id": 10,
+                "name": "Raavee",
+                "pic": "https://arma-data.pages.dev/images/p%20-%20Raavee%20Tripathi%2023253.png",
+                "linkedin": "https://www.linkedin.com/in/raavee-tripathi-b30365259/",
+                "insta": "https://www.instagram.com/raavee.tripathi/",
+                "desc": "Eat pasta, run fasta",
+                "desig": ""
+            },
+            {
+                "id": 11,
+                "name": "Gyanaranjan Samal ",
+                "pic": "https://arma-data.pages.dev/images/team/Screenshot_20240314-162512~2%20-%20Gyanaranjan%20Samal%2023125.png",
+                "linkedin": "https://www.linkedin.com/in/gyanaranjan-samal?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+                "insta": "https://www.instagram.com/gyan.samal.22?igsh=Zjh1ZWpndzBoNGZn",
+                "desc": "I am good at Mario, that's why I'm here.",
+                "desig": ""
+            },
+            {
+                "id": 12,
+                "name": "Shlok Mehndiratta",
+                "pic": "https://arma-data.pages.dev/images/team/photo%20-%20Shlok%20Mehndiratta%2023309.jpg",
+                "linkedin": "https://www.linkedin.com/in/shlok-mehndiratta-b7a08b233/",
+                "insta": "https://www.instagram.com/shlok._.mehndiratta/",
+                "desc": "I love sleep because it's like a time machine to breakfast.",
+                "desig": ""
+            },
+            {
+                "id": 14,
+                "name": "Swapnil Anand ",
+                "pic": "https://arma-data.pages.dev/images/team/MYImage%20-%20Swapnil%20Anand%2021285.jpg",
+                "linkedin": "https://www.linkedin.com/in/swapnil-anand-9b5575291/",
+                "insta": "NA",
+                "desc": "Passionate and Enthusiastic ",
+                "desig": ""
+            },
+            {
+                "id": 15,
+                "name": "Nirman Jaiswal ",
+                "pic": "https://arma-data.pages.dev/images/team/20240207_164632%20-%20Nirman%20Jaiswal%2022223.jpg",
+                "linkedin": "https://www.linkedin.com/in/nirman-jaiswal-08456a258?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+                "insta": "https://www.instagram.com/nirman.jaiswal?igsh=MWc2ZTY4cmtha3E5Nw==",
+                "desc": "(Serious)Trying to chill amidst tenacity\n\n(Casual)Happy,  Unbothered, Focussed, Glowing",
+                "desig": ""
+            },
+            {
+                "id": 16,
+                "name": "Sharmad Kalpande ",
+                "pic": "https://arma-data.pages.dev/images/team/IMG_20240315_193621%20-%20Kalpande%20Sharmad%20Shyamkumar%2022166.jpg",
+                "linkedin": "https://www.linkedin.com/in/sharmad-kalpande-161a99256?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+                "insta": "https://www.instagram.com/sharmadkalpande?igsh=MWEybG9oYXFxa2Q5Yg==",
+                "desc": "I craft the invites and emails that bring Armageddon to life, one tech-fueled sentence at a time.  I'm basically the wordsmith of Armageddon '24 (but hopefully in a good way).",
+                "desig": ""
+            },
+            {
+                "id": 17,
+                "name": "Anuj Wani",
+                "pic": "https://arma-data.pages.dev/images/team/Anuj%20pic%20with%20tilak%20-%20Wani%20Anuj%20Shriniwas%2023379.jpg",
+                "linkedin": "www.linkedin.com/in/anuj-wani05",
+                "insta": "idonthaveinsta.com",
+                "desc": "Parampara, Pratishtha, Anushasan and Gangsta's Paradise that's all about me!",
+                "desig": ""
+            },
+            {
+                "id": 18,
+                "name": "PRIYA HEMBRAM",
+                "pic": "https://arma-data.pages.dev/images/team/IMG-20240203-WA0728%20-%20Priya%20Hembram%2022249.jpg",
+                "linkedin": "N/A",
+                "insta": "https://www.instagram.com/__priya.hembram__?igsh=ZzJqcXo2bHlhdXBw",
+                "desc": "A weirdo but I'm real though",
+                "desig": ""
+            },
+            {
+                "id": 21,
+                "name": "Harshit Agnihotri",
+                "pic": "https://arma-data.pages.dev/images/team/IMG-20240316-WA0043%20-%20Harshit%20Agnihotri%2023129.jpg",
+                "linkedin": "https://www.linkedin.com/in/harshit-agnihotri-3192652a4?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+                "insta": "https://www.instagram.com/_hrxit?igsh=Ym5jd2F5dGRvZDB4",
+                "desc": "If i can, I do. If I can't, I supervise.",
+                "desig": ""
+            },
+            {
+                "id": 22,
+                "name": "Shreejiit Panda",
+                "pic": "https://arma-data.pages.dev/images/team/IMG_0676%20-%20Shreejiit%20Panda%2022300.jpeg",
+                "linkedin": "Not there",
+                "insta": "https://www.instagram.com/_shreeshh__?igsh=MTJyNWRoNWF4dmRoZA%3D%3D&utm_source=qr",
+                "desc": "Yeh you knew me all along.",
+                "desig": ""
+            },
+            {
+                "id": 23,
+                "name": "R Tharun",
+                "pic": "https://arma-data.pages.dev/images/team/IMG_3960%20-%20Ramavath%20Tharun%2021219.jpeg",
+                "linkedin": "www.linkedin.com/in/ramavath-tharun-493496263",
+                "insta": "https://www.instagram.com/rtharun19?igsh=Z2N5ZmZtdWk0N3g0",
+                "desc": "None",
+                "desig": ""
+            }
+        ]
+
+
+    
 }
