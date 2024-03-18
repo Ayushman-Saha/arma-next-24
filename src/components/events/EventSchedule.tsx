@@ -148,7 +148,7 @@ const ListItem = ({ event }:{event:Event}) => {
     return (
       
        <div className='mx-1  grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-x-2 items-center justify-center'>
-       {events.schedule.map((item:any)=>(
+       {events.map((item:any)=>(
             <div className="mt-2">
             <ScheduleCard card={item}/>
             </div>
