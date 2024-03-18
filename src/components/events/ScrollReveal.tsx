@@ -57,7 +57,7 @@ export function FeatureCard({children, id} : {children : React.ReactNode, id: st
     const inViewFeature = useFeatureStore((state) => state.inViewFeature)
 
     return(
-        <div className={cn('h-full w-full rounded-2x absolute inset-0 transition-opacity', inViewFeature === id ? "opacity-100" : "opacity-0")}>
+        <div className={cn('h-full w-full rounded-2x absolute inset-0 transition-opacity', inViewFeature === id ? "opacity-100" : "opacity-0", inViewFeature === id? "visible" : "hidden")}>
             {children}
         </div>
     )
