@@ -33,66 +33,12 @@ description?: string;
   }
   
 
-// const EventSchedule = () => {
-//   return (
 
-//     <section className="mt-10">
-       
-//         <ul role="list" className='text-3xl'>
-//             <li className="group relative flex flex-col pb-8 pl-7 last:pb-0">
-//                 <div className="absolute bottom-0 left-[calc(0.25rem-0.5px)] top-0 w-px bg-white/10 group-first:top-3">
-//                     </div>
-//                     <div className="absolute left-0 top-2 h-2 w-2 rounded-full border border-sky-300 bg-zinc-950">
-//                         </div>
-                        
-//                         <h3 className="mt-2 text-sm/2 font-semibold text-white">ArmaCode</h3>
-//                         <p className="order-first font-display text-2xs/2 font-semibold tracking-[0.2em] text-sky-300">
-//                             <time dateTime="2023-06-20T17:30-04:00">5:30PM</time> - 
-//                              <time className='px-2' dateTime="2023-06-20T18:30-04:00">6:30PM</time>
-//                              </p>
-//                              <p className="mt-2 text-sm text-zinc-400">Lets code.
-//                              </p>
-//                  </li>
-
-//              <li className="group relative flex flex-col pb-8 pl-7 last:pb-0">
-//                 <div className="absolute bottom-0 left-[calc(0.25rem-0.5px)] top-0 w-px bg-white/10 group-first:top-3">
-//                     </div>
-//                     <div className="absolute left-0 top-2 h-2 w-2 rounded-full border border-sky-300 bg-zinc-950">
-//                         </div>
-                        
-//                         <h3 className="mt-2 text-sm/6 font-semibold text-white">ArmaCode</h3>
-//                         <p className="order-first font-display text-2xs/6 font-semibold tracking-[0.2em] text-sky-300">
-//                             <time dateTime="2023-06-20T17:30-04:00">5:30PM</time> 
-//                              <time className='px-2' dateTime="2023-06-20T18:30-04:00">6:30PM</time>
-//                              </p>
-//                              <p className="mt-0.5 text-sm/6 text-zinc-400">Lets code.
-//                              </p>
-//                  </li>
-
-//                  <li className="group relative flex flex-col pb-8 pl-7 last:pb-0">
-//                 <div className="absolute bottom-0 left-[calc(0.25rem-0.5px)] top-0 w-px bg-white/10 group-first:top-3">
-//                     </div>
-//                     <div className="absolute left-0 top-2 h-2 w-2 rounded-full border border-sky-300 bg-zinc-950">
-//                         </div>
-                        
-//                         <h3 className="mt-2 text-sm/6 font-semibold text-white">ArmaCode</h3>
-//                         <p className="order-first font-display text-2xs/6 font-semibold tracking-[0.2em] text-sky-300">
-//                             <time className='' dateTime="2023-06-20T17:30-04:00">5:30PM</time> 
-//                              <time className='px-2' dateTime="2023-06-20T18:30-04:00">6:30PM</time>
-//                              </p>
-//                              <p className="mt-0.5 text-sm/6 text-zinc-400">Lets code.
-//                              </p>
-//                  </li>     
-                             
-//             </ul>
-//         </section>
-//   )
-// }
 
 const ListItem = ({ event }:{event:Event}) => {
     return (
       <li
-        className={`group relative flex flex-col pb-8 pl-7 last:pb-0`} >
+        className={`group relative flex flex-col pb-8 pl-7 last:pb-0 overflow-auto`} >
           
         
         <h3 className="mt-2 text-sm font-semibold text-white">{event.title}</h3>
@@ -107,20 +53,12 @@ const ListItem = ({ event }:{event:Event}) => {
 
   const ScheduleCard = ({ card }: {card: ScheduleCardProps}) => {
     return (
-    //   <li className="group relative flex flex-col pb-8 pl-7 last:pb-0">
-        
-    //     <h3 className="mt-2 text-sm/6 font-semibold text-white">{event.title}</h3>
-    //     <p className="order-first font-display text-2xs/6 font-semibold tracking-[0.2em] text-sky-300">
-    //       <time dateTime={event.startTime}>{event.startTime}</time> -
-    //       <time className="px-2" dateTime={event.endTime}>{event.endTime}</time>
-    //     </p>
-    //     <p className="mt-0.5 text-sm/6 text-zinc-400">{event.description}</p>
-    //   </li>
+    
     <>   
-    <h1 className="md:text-4xl text-2xl lg:text-6xl font-bold  text-center text-white relative z-20">
+    <h1 className="md:text-4xl text-2xl lg:text-6xl font-bold  text-center text-white relative z-20 overflow-visible w-full align-top">
   {card.day}
      </h1>
-     <div className="w-[40rem] h-10 relative">
+     <div className="h-10 relative  justify-center ">
   {/* Gradients */}
   <div className="absolute inset-x-20 top-0 bg-gradient-to-r from-transparent via-indigo-500 to-transparent h-[2px] w-3/4 blur-sm" />
   <div className="absolute inset-x-20 top-0 bg-gradient-to-r from-transparent via-indigo-500 to-transparent h-px w-3/4" />
@@ -147,7 +85,7 @@ const ListItem = ({ event }:{event:Event}) => {
   const EventSchedule = ({ events }: {events: any}) => {
     return (
       
-       <div  className='mx-1  grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-x-2 items-center justify-center'>
+       <div  className='mx-5  grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-x-10 items-center  overflow-y-auto z-50 justify-center h-full'>
        {events.map((item:any,index:number)=>(
         
             <div key={index} className="mt-2">
