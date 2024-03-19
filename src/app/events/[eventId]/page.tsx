@@ -113,9 +113,10 @@ function IndividualEvent({event} : {event: EventProps}) {
              Rulebook
             </button>
             </a>
-             <div className="w-1/2 mx-8">
+            { event.type === "competition" ?   <div className="w-1/2 mx-8">
              <p className="text-gray-100">Registration Deadline : {regDeadline.toLocaleDateString('en-IN')}</p>
-            </div>
+            </div>: <></> }
+           
             </div>
            ) : null
          }
