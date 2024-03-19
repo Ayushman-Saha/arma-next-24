@@ -69,7 +69,7 @@ export function Sponsors(){
         </div>
         <div className="h-[10rem] w-full my-2 bg-black flex flex-col items-center justify-center overflow-hidden rounded-md">
           <h1 className="md:text-2xl text-3xl lg:text-4xl font-bold text-center text-white relative z-20">
-            Outreach Sponsor
+            Outreach Partner
           </h1>
           <div className="w-[40rem] h-10 relative">
             {/* Gradients */}
@@ -85,12 +85,15 @@ export function Sponsors(){
         
         <div className="mx-2 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-1 gap-x-2 items-center justify-center">
             {ORSponsors.map((item, idx) => (
+                <a key={idx} href={item.href}>
                 <SponsorCard
                 key={idx}
                 type={item.type}
                 href={item.href}
                 sponsorImg={item.sponsorImg}
                 />
+                </a>
+                
              
             ))}  
         </div>

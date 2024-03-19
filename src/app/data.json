@@ -406,6 +406,12 @@
             "href" : "/",
             "sponsorImg" : "https://arma-data.pages.dev/images/sponsors/chaap.png"
             
+        },
+        {
+            "sponsorName" : "The Pancakes & Waffles",
+            "type" : "food",
+            "href" : "/",
+            "sponsorImg" : "https://arma-data.pages.dev/images/sponsors/pancakes.jpg"
         }
         
     ],
