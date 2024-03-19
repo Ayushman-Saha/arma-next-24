@@ -352,33 +352,49 @@
     ],
     "sponsors" : [
         {
-            "sponsorName" : "sponsor1",
-            "sponsorDesc" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce ac consectetur nisi. Aenean volutpat tortor ut rutrum ultricies. Proin elementum, justo a facilisis pulvinar, lectus ex ultrices sapien, ultrices egestas nisl ipsum nec nisl. Nam tristique sem odio, vitae lobortis ligula molestie eget. Aenean iaculis massa vel elit pulvinar eleifend.",
+            "sponsorName" : "Wadhwani",
+            "href" : "https://wadhwanifoundation.org/",
+            "sponsorImg" : "https://picsum.photos/500",
+            "type": "outreach"
+
+            
+        },
+        {
+            "sponsorName" : "Nebula Cloud",
+            "type": "tech",
+            "href" : "https://nebulacloud.ai/",
+            "sponsorImg" : "https://picsum.photos/500"
+            
+        },
+        {
+            "sponsorName" : "Forgewell",
+            "type": "tech",
+            "href" : "https://www.forgewellcorp.com/",
+            "sponsorImg" : "https://picsum.photos/500"
+            
+        },
+        {
+            "sponsorName" : "Jaffa",
+            "type":"food",
+            "href" : "https://www.instagram.com/jaffashawarma/?hl=en",
+            "sponsorImg" : "https://picsum.photos/500"
+            
+        },
+        {
+            "sponsorName" : "Mau's Cafe",
+            "type":"food",
             "href" : "/",
             "sponsorImg" : "https://picsum.photos/500"
             
         },
         {
-            "sponsorName" : "sponsor1",
-            "sponsorDesc" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce ac consectetur nisi. Aenean volutpat tortor ut rutrum ultricies. Proin elementum, justo a facilisis pulvinar, lectus ex ultrices sapien, ultrices egestas nisl ipsum nec nisl. Nam tristique sem odio, vitae lobortis ligula molestie eget. Aenean iaculis massa vel elit pulvinar eleifend.",
-            "href" : "/",
-            "sponsorImg" : "https://picsum.photos/500"
-            
-        },
-        {
-            "sponsorName" : "sponsor1",
-            "sponsorDesc" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce ac consectetur nisi. Aenean volutpat tortor ut rutrum ultricies. Proin elementum, justo a facilisis pulvinar, lectus ex ultrices sapien, ultrices egestas nisl ipsum nec nisl. Nam tristique sem odio, vitae lobortis ligula molestie eget. Aenean iaculis massa vel elit pulvinar eleifend.",
-            "href" : "/",
-            "sponsorImg" : "https://picsum.photos/500"
-            
-        },
-        {
-            "sponsorName" : "sponsor1",
-            "sponsorDesc" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce ac consectetur nisi. Aenean volutpat tortor ut rutrum ultricies. Proin elementum, justo a facilisis pulvinar, lectus ex ultrices sapien, ultrices egestas nisl ipsum nec nisl. Nam tristique sem odio, vitae lobortis ligula molestie eget. Aenean iaculis massa vel elit pulvinar eleifend.",
+            "sponsorName" : "ChaapWala",
+            "type":"food",
             "href" : "/",
             "sponsorImg" : "https://picsum.photos/500"
             
         }
+        
     ],
 
     "team" : [
