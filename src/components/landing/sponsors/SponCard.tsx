@@ -4,6 +4,7 @@ import { PinContainer } from "../../effects/PinEffect";
 import { Url } from "next/dist/shared/lib/router/router";
 import Image from "next/image";
 import { title } from "process";
+import Link from "next/link";
 
 export function SponsorCard({
     
@@ -30,6 +31,7 @@ export function SponsorCard({
           </h3>
          
           <div >
+            <Link href={href}            />
             
           <Image
             src={sponsorImg}
