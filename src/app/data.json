@@ -354,7 +354,7 @@
         {
             "sponsorName" : "Wadhwani",
             "href" : "https://wadhwanifoundation.org/",
-            "sponsorImg" : "https://picsum.photos/500",
+            "sponsorImg" : "https://arma-data.pages.dev/images/sponsors/wadhwani.png",
             "type": "outreach"
 
             
@@ -363,7 +363,7 @@
             "sponsorName" : "Nebula Cloud",
             "type": "tech",
             "href" : "https://nebulacloud.ai/",
-            "sponsorImg" : "https://picsum.photos/500"
+            "sponsorImg" : "https://arma-data.pages.dev/images/sponsors/nebula.png"
             
         },
         {
@@ -377,21 +377,21 @@
             "sponsorName" : "Jaffa",
             "type":"food",
             "href" : "https://www.instagram.com/jaffashawarma/?hl=en",
-            "sponsorImg" : "https://picsum.photos/500"
+            "sponsorImg" : "https://arma-data.pages.dev/images/sponsors/jaffa.png"
             
         },
         {
             "sponsorName" : "Mau's Cafe",
             "type":"food",
             "href" : "/",
-            "sponsorImg" : "https://picsum.photos/500"
+            "sponsorImg" : "https://arma-data.pages.dev/images/sponsors/maus.png"
             
         },
         {
             "sponsorName" : "ChaapWala",
             "type":"food",
             "href" : "/",
-            "sponsorImg" : "https://picsum.photos/500"
+            "sponsorImg" : "https://arma-data.pages.dev/images/sponsors/chaap.png"
             
         }
         
