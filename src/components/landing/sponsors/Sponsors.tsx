@@ -97,7 +97,7 @@ export function Sponsors(){
 
         <div className="h-[10rem] w-full my-2 bg-black flex flex-col items-center justify-center overflow-hidden rounded-md">
           <h1 className="md:text-2xl text-3xl lg:text-4xl font-bold text-center text-white relative z-20">
-            Food Sponsors
+            Food Partner
           </h1>
           <div className="w-[40rem] h-10 relative">
             {/* Gradients */}
