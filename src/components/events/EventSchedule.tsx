@@ -55,7 +55,7 @@ const ListItem = ({ event }:{event:Event}) => {
     return (
     
     <>   
-    <h1 className="md:text-4xl text-2xl lg:text-6xl font-bold text-center align-top text-white relative z-20 overflow-visible w-full align-top">
+    <h1 className="md:text-4xl text-2xl lg:text-6xl font-bold text-center  text-white relative z-20 overflow-visible w-full align-top">
   {card.day}
      </h1>
      <div className="h-10 relative  justify-center ">
