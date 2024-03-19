@@ -26,11 +26,11 @@ export  default function EventCard({
     <Link  href={`/events/${eventName}`}>
     <CardContainer className="inter-var p-4">
        <GradientCard>
-      <CardBody className="bg-gray-900 relative group/card dark:hover:shadow-2xl dark:hover:shadow-emerald-500/[0.1] dark:bg-zinc-900 dark:border-white/[0.2] border-2 border-zinc-50  w-auto sm:min-w-[30rem] md:min-w-[22rem] lg:min-w-[20rem] h-fit rounded-xl p-6 ">
+      <CardBody className="relative group/card hover:shadow-2xl hover:shadow-emerald-500/[0.1] bg-zinc-900 border-white/[0.2] border-2 w-auto sm:min-w-[30rem] md:min-w-[22rem] lg:min-w-[20rem] h-fit rounded-xl p-6 ">
     
         <CardItem
           translateZ="50"
-          className="text-xl font-bold text-neutral-600 p-2 dark:text-white"
+          className="text-xl font-bold p-2 text-white"
         >
           {eventName}
         </CardItem>
@@ -38,7 +38,7 @@ export  default function EventCard({
         <CardItem
           as="p"
           translateZ="60"
-          className="text-neutral-500 text-sm max-w-sm p-2 mt-2 dark:text-neutral-300"
+          className="text-sm max-w-sm p-2 mt-2 text-neutral-300"
         >
         {eventDesc}
         </CardItem>
