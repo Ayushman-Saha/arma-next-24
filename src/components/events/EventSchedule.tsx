@@ -38,7 +38,7 @@ description?: string;
 const ListItem = ({ event }:{event:Event}) => {
     return (
       <li
-        className={`group relative flex flex-col pb-8 pl-7 last:pb-0 overflow-auto`} >
+        className={`group relative flex flex-col pb-8 pl-7 last:pb-0 overflow-visible`} >
           
         
         <h3 className="mt-2 text-sm font-semibold text-white">{event.title}</h3>
@@ -55,7 +55,7 @@ const ListItem = ({ event }:{event:Event}) => {
     return (
     
     <>   
-    <h1 className="md:text-4xl text-2xl lg:text-6xl font-bold  text-center text-white relative z-20 overflow-visible w-full align-top">
+    <h1 className="md:text-4xl text-2xl lg:text-6xl font-bold text-center align-top text-white relative z-20 overflow-visible w-full align-top">
   {card.day}
      </h1>
      <div className="h-10 relative  justify-center ">
@@ -85,7 +85,7 @@ const ListItem = ({ event }:{event:Event}) => {
   const EventSchedule = ({ events }: {events: any}) => {
     return (
       
-       <div  className='mx-5  grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-x-10 items-center  overflow-y-auto z-50 justify-center h-full'>
+       <div  className='mx-5  grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-x-10  overflow-visible z-50 justify-center h-full'>
        {events.map((item:any,index:number)=>(
         
             <div key={index} className="mt-2">
