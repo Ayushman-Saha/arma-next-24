@@ -114,7 +114,7 @@ export function Sponsors(){
           </div>
         </div>
         
-        <div className="mx-2 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-x-2 gap gap-y-9 items-center justify-center h-[50rem]">
+        <div className="mx-2 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-x-2 gap gap-y-9 items-center justify-center h-[100vh]">
             {FoodSponsors.map((item, idx) => (
                 <SponsorCard
                 key={idx}
