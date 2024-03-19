@@ -56,7 +56,7 @@ export function Sponsors(){
           </div>
         </div>
         
-        <div className="mx-2  grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-x-2 items-center justify-center">
+        <div className="mx-2 h-full grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-x-2 items-center justify-center">
             {TechSponsors.map((item, idx) => (
                 <SponsorCard
                 key={idx}
@@ -98,7 +98,7 @@ export function Sponsors(){
             ))}  
         </div>
 
-        <div className="h-[10rem] w-full my-2 bg-black flex flex-col items-center justify-center overflow-hidden rounded-md">
+        <div className="h-[20rem] w-full my-2 bg-black flex flex-col items-center justify-center overflow-hidden rounded-md">
           <h1 className="sm:text-1x1 md:text-2xl text-3xl lg:text-4xl font-bold text-center text-white relative z-20">
             Food Partner
           </h1>
@@ -114,7 +114,7 @@ export function Sponsors(){
           </div>
         </div>
         
-        <div className="mx-2 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-x-2 items-center justify-center">
+        <div className="mx-2 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-x-2 gap gap-y-9 items-center justify-center h-[50rem]">
             {FoodSponsors.map((item, idx) => (
                 <SponsorCard
                 key={idx}
