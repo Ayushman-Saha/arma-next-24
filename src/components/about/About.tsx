@@ -3,30 +3,6 @@ import React from 'react'
 import { HoverEffect } from '@/components/effects/CardHover'
 import { SparklesCore } from '../effects/Sparkles'
 
-let members = [
-    {
-    "name": "person1",
-    "href":"/",
-    "image": "https://picsum.photos/500",
-    },{
-    "name": "person1",
-    "href":"/",
-    "image": "https://picsum.photos/500",
-    },
-    {"name": "person1",
-    "href":"/",
-    "image": "https://picsum.photos/500",
-    },
-    {"name": "person1",
-    "href":"/",
-    "image": "https://picsum.photos/500",
-    },{
-    "name": "person1",
-    "href":"/",
-    "image": "https://picsum.photos/500",
-    }
-]
-
 function About(){
     return(
     <>
