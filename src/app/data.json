@@ -66,7 +66,7 @@
             "eventId" : 4,
             "eventName" : "Arduino Workshop",
             "eventDesc" : "Join us for an exciting Arduino workshop at our tech fest! Learn to harness the power of this versatile microcontroller platform to bring your electronic projects to life. Discover the basics of Arduino programming, explore hardware interfacing, and dive into hands-on projects designed to ignite your imagination. Whether you're a beginner or an enthusiast, this workshop is your gateway to the world of electronics and innovation.",
-            "eventImage" : "https://picsum.photos/500",
+            "eventImage" : "https://arma-data.pages.dev/images/events/Arduino.png",
             "regDeadline" : "2024-01-01T12:12:34+00:00",
             "eventDate" : "2024-03-23T12:12:34+00:00",
             "starttime": "11:00AM",
@@ -418,7 +418,7 @@
             "pic" :"https://arma-data.pages.dev/images/team/srutanik.png",
             "linkedin": "https://www.linkedin.com/in/srutanik-bhaduri-3a9a691b9/",
             "insta": "",
-            "desc": "",
+            "desc": "I know the tech",
             "desig": "Convener"
         },
         {
