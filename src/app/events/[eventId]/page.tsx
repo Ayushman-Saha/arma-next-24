@@ -35,7 +35,7 @@ const events = data.events;
 export function generateStaticParams() {
   
  
-  return events.map((event:any) => ({
+  return events.map((event:EventProps) => ({
     eventId:event.eventName,
   }))
 }
