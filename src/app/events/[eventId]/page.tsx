@@ -103,7 +103,7 @@ function IndividualEvent({event} : {event: EventProps}) {
           
         
           {
-             event.type === "competition" ? (
+             (event.type === "competition" || event.type === "gaming")? (
                <div className="flex items-center justify-center gap-2 border-b border-gray-300 py-8 md:pr-12 lg:pr-12">
               <a href={event.rulebook} target="_blank">
               <button
@@ -121,11 +121,11 @@ function IndividualEvent({event} : {event: EventProps}) {
          }
 
          {
-            event.type ==="competition" ? (
+            (event.type === "competition" || event.type === "gaming") ? (
               <div className="py-6 ">
           
 
-            <a href={((regDeadline.getTime() - currentDate.getTime()) > 0 ? `${event.regLink}` : "")}>
+            <a target="_blank" href={((regDeadline.getTime() - currentDate.getTime()) > 0 ? `${event.regLink}` : "")}>
             <button
               type="submit"
               className={cn("h-16 w-full rounded-md px-3 py-2 text-sm font-semibold text-black shadow-smfocus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-black", ((regDeadline.getTime() - currentDate.getTime()) > 0 ? "bg-gray-100" : "bg-gray-500"))}
