@@ -334,7 +334,7 @@
             "eventId" : 13,
             "eventName" : "Clash Royale",
             "eventDesc" : "Enter the arena of Clash Royale and prepare for epic battles! Join us for fast-paced strategic duels where every decision counts. Build your deck, deploy your troops, and outsmart your opponents in real-time battles. With a variety of cards and tactics at your disposal, Clash Royale offers endless possibilities for victory. Are you ready to clash with players from around the world, climb the ranks, and become the ultimate champion? Join us now and prove your skills in the arena!",
-            "eventImage" : "https://arma-data.pages.dev/images/events/gaming/tekken.png",
+            "eventImage" : "https://arma-data.pages.dev/images/events/gaming/clash.png",
             "regDeadline" : "2024-03-25T12:12:34+00:00",
             "eventDate" : "2024-03-23T12:12:34+00:00",
             "Rd1_starttime": "5:00 PM",
@@ -370,7 +370,7 @@
             "sponsorName" : "Forgewell",
             "type": "tech",
             "href" : "https://www.forgewellcorp.com/",
-            "sponsorImg" : "https://picsum.photos/500"
+            "sponsorImg" : "https://arma-data.pages.dev/images/sponsors/forgewell.png"
             
         },
         {
