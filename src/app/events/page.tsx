@@ -12,7 +12,7 @@ const competitiveEvents = data.events.filter((event) => event.type === "competit
 const featuredEvents = data.events.filter((event) => event.isFeatured === true)
 const workshopEvents = data.events.filter((event) => event.type === "workshop")
 const talkEvents = data.events.filter((event) => event.type === "talk")
-
+const gamingEvents = data.events.filter((event) => event.type === "gaming")
 
 function EventPage() {
  const screenSize = useScreenSize()
@@ -63,6 +63,14 @@ function EventPage() {
         <div className='mb-32'>
             {screenSize.width > 1024 ? <CardScroll content={talkEvents}/> : <EventGridLayout events={talkEvents}/>}   
         </div>
+
+        <div className='text-4xl md:text-7xl mb-32 mt-16 font-bold text-center bg-clip-text text-transparent bg-gradient-to-b from-neutral-50 to-neutral-400 bg-opacity-50'>
+             Gaming events
+        </div>
+        <div className='mb-32'>
+            {screenSize.width > 1024 ? <CardScroll content={gamingEvents}/> : <EventGridLayout events={gamingEvents}/>}   
+        </div>
+        
         
     </div>
   )
