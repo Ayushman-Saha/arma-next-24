@@ -2,6 +2,7 @@
 import React, { useState } from "react";
 import { motion } from "framer-motion";
 import { cn } from "@/utils/cn";
+import Link from "next/link";
 
 export const PinContainer = ({
   children,
@@ -12,7 +13,7 @@ export const PinContainer = ({
 }: {
   children: React.ReactNode;
   title?: string;
-  href?: string;
+  href : string;
   className?: string;
   containerClassName?: string;
 }) => {
@@ -28,7 +29,8 @@ export const PinContainer = ({
   };
 
   return (
-    <div
+    <Link href={href} target="_blank">
+        <div
       className={cn(
         "relative group/pin z-50  cursor-pointer",
         containerClassName
@@ -54,6 +56,8 @@ export const PinContainer = ({
       </div>
       <PinPerspective title={title} href={title} />
     </div>
+    </Link>
+    
   );
 };
 
@@ -69,7 +73,7 @@ export const PinPerspective = ({
       <div className=" w-full h-full -mt-7 flex-none  inset-0">
         <div className="absolute top-0 inset-x-0 z-50 flex justify-center">
           <a
-            href={title}
+            href={href}
             target={"_blank"}
             className="relative flex space-x-2 items-center z-50 rounded-full bg-zinc-950 py-0.5 px-4 ring-1 ring-white/10 "
           >

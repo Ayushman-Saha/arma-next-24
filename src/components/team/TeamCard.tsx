@@ -28,7 +28,7 @@ export  default function TeamCard({
     
     <CardContainer className="inter-var p-4 z-10 mx-auto">
    
-      <CardBody className="bg-gray-900 relative group/card dark:hover:shadow-2xl dark:hover:shadow-emerald-500/[0.1] dark:bg-zinc-900 border-2 border-white  w-auto sm:min-w-[30rem] md:min-w-[22rem] lg:min-w-[20rem] h-fit rounded-xl p-6">
+      <CardBody className="relative group/card hover:shadow-2xl hover:shadow-emerald-500/[0.1] bg-zinc-900 border-2 border-white  w-auto sm:min-w-[30rem] md:min-w-[22rem] lg:min-w-[20rem] h-fit rounded-xl p-6">
 
       <CardItem translateZ="100" className="w-full mt-4">
           <Image
@@ -42,7 +42,7 @@ export  default function TeamCard({
     
         <CardItem
           translateZ="50"
-          className="text-xl font-bold text-neutral-600 p-1 mt-2 dark:text-white"
+          className="text-xl font-bold p-1 mt-2 text-white"
         >
           {name}
         </CardItem>
@@ -50,7 +50,7 @@ export  default function TeamCard({
         <CardItem
           as="p"
           translateZ="60"
-          className="text-neutral-500 text-sm font-bold italic max-w-sm p-1 mt-2 dark:text-neutral-300"
+          className="text-sm font-bold italic max-w-sm p-1 mt-2 text-neutral-300"
         >
         {desig}
         </CardItem>
@@ -58,7 +58,7 @@ export  default function TeamCard({
         <CardItem
           as="p"
           translateZ="60"
-          className="text-neutral-500 text-base max-w-sm p-1 mt-1 dark:text-neutral-300"
+          className="text-base max-w-sm p-1 mt-1 text-neutral-300"
         >
         {desc}
         </CardItem>
