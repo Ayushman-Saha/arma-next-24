@@ -12,6 +12,9 @@ const nextConfig = {
         //     },
         // ],
     },
+   
+        basePath: '/armageddon',
+      
 };
 
 export default nextConfig;
