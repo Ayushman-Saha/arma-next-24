@@ -133,9 +133,9 @@ const ListItem = ({ event }:{event:Event}) => {
 </div>
     <ul role="list" className="text-3xl text-center">
           
-            {card.events.map((item)=>(
+            {card.events.map((item,index:number)=>(
             
-                <ListItem event={item} />
+                <ListItem key={index} event={item} />
             ))};
             
      
@@ -147,9 +147,11 @@ const ListItem = ({ event }:{event:Event}) => {
   const EventSchedule = ({ events }: {events: any}) => {
     return (
       
-       <div className='mx-1  grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-x-2 items-center justify-center'>
-       {events.map((item:any)=>(
-            <div className="mt-2">
+       <div  className='mx-1  grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-x-2 items-center justify-center'>
+       {events.map((item:any,index:number)=>(
+        
+            <div key={index} className="mt-2">
+            
             <ScheduleCard card={item}/>
             </div>
         ))};
