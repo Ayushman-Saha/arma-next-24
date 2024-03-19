@@ -5,7 +5,7 @@
             "eventName" : "ArmaCode",
             "eventDesc" : "After several successful coding hackathons, the coding club of IISERB returns with another thrilling and this time an even bigger hackathon, an inter-college coding competition to be held across 2 days. Brace yourself for challenging problems and the opportunity to showcase your programming prowess in this two-day codathon.",
             "eventImage" : "https://arma-data.pages.dev/images/events/armacode%20.jpg",
-            "regDeadline" : "2024-01-01T12:12:34+00:00",
+            "regDeadline" : "2024-03-025T12:12:34+00:00",
             "eventDate" : "2024-03-24T12:12:34+00:00",
             "Rd1_starttime": "10:00 AM",
             "Rd1_endtime": "1:00 PM",
@@ -38,7 +38,7 @@
             "eventName" : "Tech Quiz",
             "eventDesc" : "Scavenge your techie Brains to compete against each other for a mind-boggling Tech-Quiz in collaboration with IISERB’s very own Quizzing Club IBQC. Be a part of this rewarding challenge filled with fun, excitement and IQ.",
             "eventImage" : "https://arma-data.pages.dev/images/comingsoon.jpeg",
-            "regDeadline" : "2024-01-01T12:12:34+00:00",
+            "regDeadline" : "2024-03-25T12:12:34+00:00",
             "eventDate" : "2024-03-23T12:12:34+00:00",
             "starttime": "8:00 PM",
             "endtime": "12:00AM",
@@ -124,10 +124,10 @@
             "eventName" : "EnigmART",
             "eventDesc" : "Welcome to The AI Art Recreation Challenge! Your Task? Simply guess the prompts that inspired these remarkable artworks and recreate them using your own artistic flair!",
             "eventImage" : "https://arma-data.pages.dev/images/events/enigmArt.png",
-            "regDeadline" : "2024-01-01T12:12:34+00:00",
+            "regDeadline" : "2024-03-23T12:12:34+00:00",
             "eventDate" : "2024-01-01T12:12:34+00:00",
             "venue" : "online",
-            "regLink" : "/#",
+            "regLink" : "https://docs.google.com/forms/d/e/1FAIpQLSfG_jdNrclXB0yz6zxwuvIlm0ajMkVba50gHyKCmkfyPr7PRQ/viewform",
             "rulebook" : "/#",
             "type" : "competition",
             "isFeatured" : false
@@ -140,7 +140,7 @@
             "regDeadline" : "2024-01-01T12:12:34+00:00",
             "eventDate" : "2024-01-01T12:12:34+00:00",
             "venue" : "online",
-            "regLink" : "/#",
+            "regLink" : "https://docs.google.com/forms/d/e/1FAIpQLScCBszVEm4qjQ2f0V4y4nWy1LkMhuTgzHjm-kveX5bwa4mRfA/viewform",
             "rulebook" : "/#",
             "type" : "competition",
             "isFeatured" : false
@@ -155,8 +155,8 @@
             "starttime": "8:00PM",
             "endtime": "12:00AM",
             "venue" : "LHC Lawn",
-            "regLink" : "/#",
-            "rulebook" : "/#",
+            "regLink" : "https://docs.google.com/document/d/1OEaQ9Z1MhjJ4uXYyk8E9Uj1Rbjbm7PkZJEn1aMFAbEA/",
+            "rulebook" : "https://docs.google.com/forms/d/e/1FAIpQLSeHy2noj0c4yRK8n-rbSBeP-xL9jplalhIRqwhqNHKZJgAFTw/viewform",
             "type" : "competition",
             "isFeatured" : false
         },
@@ -170,7 +170,7 @@
             "starttime": "6:00PM",
             "endtime": "8:00PM",
             "venue" : "LHC Atrium",
-            "regLink" : "/#",
+            "regLink" : "https://docs.google.com/forms/d/e/1FAIpQLSfgKhPTd49W0_m3dtncMfpju9hrrOTVwcudTxS_UhTSYwjHqg/viewform",
             "rulebook" : "/#",
             "type" : "competition",
             "isFeatured" : false
@@ -637,12 +637,36 @@
                         "startTime": "5:00PM",
                         "endTime": "10:00PM",
                         "venue": "L5"
+                    },
+                    {
+                        "title": "Code Clash",
+                        "startTime": "8:00PM",
+                        "endTime": "11:30PM",
+                        "venue": "LHC Lawn"
                     }
                 ]
             },
             {
                 "day": "Day 2",
                 "events": [
+                    {
+                        "title": "Arduino Workshop",
+                        "startTime": "11:00AM",
+                        "endTime": "1:00PM",
+                        "venue": "Studio Air"
+                    },
+                    {
+                        "title": "Guest Lecture",
+                        "startTime": "2:00PM",
+                        "endTime": "3:00PM",
+                        "venue": "L5"
+                    },
+                    {
+                        "title": "Photography Workshop [Astro Tutorial]-1",
+                        "startTime": "4:00PM",
+                        "endTime": "5:00PM",
+                        "venue": "Studio Air"
+                    },
                     {
                         "title": "Tech Quiz",
                         "startTime": "8:00 PM",
