@@ -8,7 +8,7 @@ const team = data.team;
 const Convener = team.filter(item => item.desig == "Convener")
 const Co_convener = team.filter(item => item.desig == "Co-Convener")
 const Vigilance = team.filter(item => item.desig == "Vigilance")
-const Tech_team = team.filter(item => item.desig =="Tech Team")
+const Tech_team = team.filter(item => item.desig =="The Techies")
 const OC = team.filter(item => item.desig == "Organizing Committee")
 
 export const metadata: Metadata = {
@@ -178,7 +178,7 @@ const Team = () => {
 
         <div className="h-[10rem] w-full my-2 bg-black flex flex-col items-center justify-center overflow-hidden rounded-md">
           <h1 className="md:text-2xl text-3xl lg:text-4xl font-bold text-center text-white relative z-20">
-           Tech Team
+           The Techies
           </h1>
           <div className="w-[40rem] h-10 relative">
             {/* Gradients */}
