@@ -637,12 +637,36 @@
                         "startTime": "5:00PM",
                         "endTime": "10:00PM",
                         "venue": "L5"
+                    },
+                    {
+                        "title": "Code Clash",
+                        "startTime": "8:00PM",
+                        "endTime": "11:30PM",
+                        "venue": "LHC Lawn"
                     }
                 ]
             },
             {
                 "day": "Day 2",
                 "events": [
+                    {
+                        "title": "Arduino Workshop",
+                        "startTime": "11:00AM",
+                        "endTime": "1:00PM",
+                        "venue": "Studio Air"
+                    },
+                    {
+                        "title": "Guest Lecture",
+                        "startTime": "2:00PM",
+                        "endTime": "3:00PM",
+                        "venue": "L5"
+                    },
+                    {
+                        "title": "Photography Workshop [Astro Tutorial]-1",
+                        "startTime": "4:00PM",
+                        "endTime": "5:00PM",
+                        "venue": "Studio Air"
+                    },
                     {
                         "title": "Tech Quiz",
                         "startTime": "8:00 PM",
