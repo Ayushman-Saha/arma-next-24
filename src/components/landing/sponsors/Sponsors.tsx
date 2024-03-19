@@ -25,7 +25,7 @@ export function Sponsors(){
             />
           </div>
           <div className="h-[10rem] my-2 w-full bg-black flex flex-col items-center justify-center overflow-hidden rounded-md">
-          <h1 className="md:text-5xl text-3xl lg:text-7xl font-bold text-center text-white relative z-20">
+          <h1 className="sm:text-3xl  text-lg md:text-5xl  lg:text-7xl font-bold text-center text-white relative z-20">
             Our Sponsors
           </h1>
           <div className="w-[40rem] h-10 relative">
@@ -41,7 +41,7 @@ export function Sponsors(){
         </div>
 
         <div className="h-[10rem] w-full my-2 bg-black flex flex-col items-center justify-center overflow-hidden rounded-md">
-          <h1 className="md:text-2xl text-3xl lg:text-4xl font-bold text-center text-white relative z-20">
+          <h1 className="sm:text-1x1 text-sm md:text-2xl  lg:text-4xl font-bold text-center text-white relative z-20">
             Tech Sponsor
           </h1>
           <div className="w-[40rem] h-10 relative">
@@ -96,7 +96,7 @@ export function Sponsors(){
         </div>
 
         <div className="h-[10rem] w-full my-2 bg-black flex flex-col items-center justify-center overflow-hidden rounded-md">
-          <h1 className="md:text-2xl text-3xl lg:text-4xl font-bold text-center text-white relative z-20">
+          <h1 className="sm:text-1x1 md:text-2xl text-3xl lg:text-4xl font-bold text-center text-white relative z-20">
             Food Partner
           </h1>
           <div className="w-[40rem] h-10 relative">

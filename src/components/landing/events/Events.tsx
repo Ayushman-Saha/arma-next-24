@@ -13,7 +13,7 @@ function Events() {
     <div className="h-full relative w-full bg-black flex flex-col items-center justify-center overflow-hidden rounded-md">
       <div className="w-full absolute inset-0 h-full">
         <SparklesCore
-          id="tsparticlesfullpage"
+          id="tsparticlesful"
           background="transparent"
           minSize={0.6}
           maxSize={1.4}
