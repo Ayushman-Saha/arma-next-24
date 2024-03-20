@@ -11,7 +11,7 @@ services:
       watch:
         - action: sync
           path: ./
-          target: ./
+          target: ./app
           ignore:
             - node_modules/
         - action: rebuild
