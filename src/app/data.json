@@ -650,6 +650,7 @@
         [
             {
                 "day": "Day 1",
+                "date": "22 March",
                 "events": [
                     {
                         "title": "Opening Cermony",
@@ -660,13 +661,14 @@
                     {
                         "title": "Code Clash",
                         "startTime": "8:00PM",
-                        "endTime": "12:00PM",
+                        "endTime": "12:00AM",
                         "venue": "LHC Lawn"
                     }
                 ]
             },
             {
                 "day": "Day 2",
+                "date": "23 March",
                 "events": [
                     {
                         "title": "Arduino Workshop",
@@ -720,6 +722,7 @@
             },
             {
                 "day": "Day 3",
+                "date": "24 March",
                 "events": [
                     {
                         "title": "ArmaCode",

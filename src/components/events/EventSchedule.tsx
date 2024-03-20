@@ -12,6 +12,7 @@ type Event = {
     type  EventScheduleProps = {
     schedule : [{ 
         day: string,
+        date: string,
         events: [{
             title: string;
     startTime: string;
@@ -23,6 +24,7 @@ type Event = {
   
  type ScheduleCardProps = {
      day: string;
+     date: string;
      events: [{
         title: string;
 startTime: string;
@@ -55,9 +57,14 @@ const ListItem = ({ event }:{event:Event}) => {
     return (
     
     <>   
-    <h1 className="md:text-4xl text-2xl lg:text-6xl font-bold text-center  text-white relative z-20 overflow-visible w-full align-top">
-  {card.day}
-     </h1>
+    <div className="md:text-4xl text-2xl lg:text-6xl font-bold text-center  text-white relative z-20 overflow-visible w-full align-top">
+  {card.day} 
+  <span> <em className='md:text-xl inline text-base lg:text-3xl p-4 my-4'>
+  {card.date }
+  </em>
+  </span>
+  </div> 
+ 
      <div className="h-10 relative  justify-center ">
   {/* Gradients */}
   <div className="absolute inset-x-20 top-0 bg-gradient-to-r from-transparent via-indigo-500 to-transparent h-[2px] w-3/4 blur-sm" />

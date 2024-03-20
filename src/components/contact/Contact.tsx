@@ -31,16 +31,6 @@ function Contact() {
           <IconBrandGmail className="h-8 w-8  text-white inline mx-2"/>
           </Link>
         </p>
-
-        <p className='m-8'>
-          <em className='font-semibold text-center px-4'>
-            Co-Convenor :
-          </em>
-         Akshat Gudesar
-          <Link href="mailto:akshat21@iiserb.ac.in" className="">
-          <IconBrandGmail className="h-8 w-8  text-white inline mx-2"/>
-          </Link>
-        </p>
         <p className='m-8'>
           <em className='font-semibold text-center px-4'>
             Co-Convenor :
@@ -50,6 +40,16 @@ function Contact() {
           <IconBrandGmail className="h-8 w-8  text-white inline mx-2"/>
           </Link>
         </p>
+        <p className='m-8'>
+          <em className='font-semibold text-center px-4'>
+            Co-Convenor :
+          </em>
+         Akshat Gudesar
+          <Link href="mailto:akshat21@iiserb.ac.in" className="">
+          <IconBrandGmail className="h-8 w-8  text-white inline mx-2"/>
+          </Link>
+        </p>
+        
         <p className='mt-2 text-wrap max-w-2xl'>
           Computing and Networking Council (CNC), Indian Institute of Science Education and Research Bhopal (IISERB), Bhopal Bypass Road, Bhauri Bhopal 462 066. Madhya Pradesh, INDIA.
         </p>
