@@ -1,12 +1,12 @@
 version: "3.8"
 services:
   arma:
-    build: .
+    build:
+      context: .
     ports:
       - "3000:3000"  
     volumes:
       - ./:/app  
-    command: npm run build && npm run start
     develop:
       watch:
         - action: sync
