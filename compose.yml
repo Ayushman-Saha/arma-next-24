@@ -3,6 +3,9 @@ services:
   arma:
     build:
       context: .
+      dockerfile: Dockerfile
+    container_name: docker-arma
+    tty: true
     ports:
       - "3000:3000"  
     volumes:
