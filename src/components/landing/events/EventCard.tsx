@@ -23,7 +23,7 @@ export  default function EventCard({
   return (
    
 
-    <Link  href={`/events/${eventName}`}>
+    <Link  href={`/armageddon/events/${eventName}`}>
     <CardContainer className="inter-var p-4">
        <GradientCard>
       <CardBody className="relative group/card hover:shadow-2xl hover:shadow-emerald-500/[0.1] bg-zinc-900 border-white/[0.2] border-2 w-auto sm:min-w-[30rem] md:min-w-[22rem] lg:min-w-[20rem] h-fit rounded-xl p-6 ">

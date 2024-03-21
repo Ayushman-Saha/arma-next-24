@@ -35,8 +35,8 @@
             "eventId" : 7,
             "eventName" : "Tech Quiz",
             "eventDesc" : "Scavenge your techie Brains to compete against each other for a mind-boggling Tech-Quiz in collaboration with IISERB’s very own Quizzing Club IBQC. Be a part of this rewarding challenge filled with fun, excitement and IQ.",
-            "eventImage" : "https://arma-data.pages.dev/images/comingsoon.jpeg",
-            "regDeadline" : "2024-03-23T12:12:34+00:00",
+            "eventImage" : "https://arma-data.pages.dev/images/events/",
+            "regDeadline" : "2024-03-25T12:12:34+00:00",
             "eventDate" : "2024-03-23T12:12:34+00:00",
             "starttime": "9:00 PM",
             "endtime": "12:00AM",
@@ -51,14 +51,14 @@
             "eventId" : 3,
             "eventName" : "Arma Fair",
             "eventDesc" : "Experience the ultimate fusion of technology and entertainment at Arma Fair! This pre-event extravaganza promises a captivating blend of tech displays, retro games showcases, and arcade gaming excitement that will leave you wanting more.",
-            "eventImage" : "https://arma-data.pages.dev/images/comingsoon.jpeg",
-            "regDeadline" : "2023-03-24T12:12:34+00:00",
+            "eventImage" : "https://arma-data.pages.dev/images/armaFair.png",
+            "regDeadline" : "2024-01-01T12:12:34+00:00",
             "eventDate" : "2024-03-24T12:12:34+00:00",
             "venue" : "LHC Lawn",
             "regLink" : "/#",
             "rulebook" : "/#",
             "type" : "featured",
-            "isFeatured" : false
+            "isFeatured" : true
         },
         {
             "eventId" : 4,
@@ -76,26 +76,12 @@
             "isFeatured" : false
         },
 
-      
-        {
-            "eventId" : 6,
-            "eventName" : "VR Workshop",
-            "eventDesc" : "Embark on a journey into the immersive world of Virtual Reality (VR) at our workshop during Armageddon .Explore the latest VR technologies, learn hands-on techniques, and unlock the potential of this groundbreaking medium. Don't miss your chance to step into the future of storytelling and innovation!",
-            "eventImage" : "https://arma-data.pages.dev/images/comingsoon.jpeg",
-            "regDeadline" : "2023-03-24T12:12:34+00:00",
-            "eventDate" : "2024-03-24T12:12:34+00:00",
-            "venue" : "L-5 LHC",
-            "regLink" : "/#",
-            "rulebook" : "false",
-            "type" : "workshop",
-            "isFeatured" : false
-        },
         {
             "eventId" : 8,
             "eventName" : "Guest Lecture",
             "eventDesc" : "Join us for a captivating Guest lecture at our tech fest! Participants will get a chance to engage with industry leaders, innovators, and experts as they share valuable insights on the latest trends and technologies shaping our world.",
-            "eventImage" : "https://arma-data.pages.dev/images/comingsoon.jpeg",
-            "regDeadline" : "2023-03-23T12:12:34+00:00",
+            "eventImage" : "https://arma-data.pages.dev/images/talk.jpg",
+            "regDeadline" : "2024-01-01T12:12:34+00:00",
             "eventDate" : "2024-03-23T12:12:34+00:00",
             "starttime": "2:00PM",
             "endtime": "4:00PM",
@@ -317,8 +303,8 @@
             "eventId" : 13,
             "eventName" : "Nebula Cloud Talk",
             "eventDesc" : "A talk on Nebula clouds",
-            "eventImage" : "https://arma-data.pages.dev/images/comingsoon.jpeg",
-            "regDeadline" : "2023-03-23T12:12:34+00:00",
+            "eventImage" : "https://arma-data.pages.dev/images/nebula.png",
+            "regDeadline" : "2024-01-01T12:12:34+00:00",
             "eventDate" : "2024-03-23T12:12:34+00:00",
             "starttime": "6:00 PM",
             "endtime": "7:00 PM",
