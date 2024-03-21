@@ -6,7 +6,7 @@
             "eventDesc" : "After several successful coding hackathons, the coding club of IISERB returns with another thrilling and this time an even bigger hackathon, an inter-college coding competition to be held across 2 days. Brace yourself for challenging problems and the opportunity to showcase your programming prowess in this two-day codathon.",
             "eventImage" : "https://arma-data.pages.dev/images/events/armacode%20.jpg",
             "regDeadline" : "2024-03-025T12:12:34+00:00",
-            "eventDate" : "2024-03-24T12:12:34+00:00",
+            "eventDate" : "2024-03-24",
             "Rd1_starttime": "11:00 AM",
             "Rd1_endtime": "1:00 PM",
             "Rd2_starttime": "3:00 PM",
@@ -77,19 +77,7 @@
             "type": "workshop",
             "isFeatured" : false
         },
-        {
-            "eventId" : 5,
-            "eventName" : "3D Modeling Workshop",
-            "eventDesc" : "An exclusive 3D Modeling Workshop led by experts at our tech fest. The Participants will learn essential techniques,  explore innovative tools, and unleash your creativity in this  hands-on session. The software to be used in this workshop is Beegraphy. A Fantastic opportunity to hone your skills, expand your knowledge, and take your creations to the next level.",
-            "eventImage" : "https://arma-data.pages.dev/images/events/3d.jpeg",
-            "regDeadline" : "2024-01-01T12:12:34+00:00",
-            "eventDate" : "2024-03-17T12:12:34+00:00",
-            "venue" : "Studio Air",
-            "regLink" : "/#",
-            "rulebook" : "/#",
-            "type": "workshop",
-            "isFeatured" : false
-        },
+
       
         {
             "eventId" : 6,
