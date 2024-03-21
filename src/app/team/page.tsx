@@ -54,7 +54,10 @@ const Team = () => {
           </div>
         </div>
 
-        <div className="h-[10rem] w-full my-2 bg-black flex flex-col items-center justify-center overflow-hidden rounded-md">
+      <div  className='mx-5  grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-x-2 overflow-visible z-50 justify-center h-full'>
+        <div>
+          <div className="h-[10rem] w-full my-2 bg-black flex flex-col items-center justify-center overflow-hidden rounded-md">
+          
           <h1 className="md:text-2xl text-3xl lg:text-4xl font-bold text-center text-white relative z-20">
             Convener
           </h1>
@@ -70,7 +73,7 @@ const Team = () => {
           </div>
         </div>
         
-        <div className="mx-2  grid grid-cols-1 md:grid-cols-1 lg:grid-cols-1 gap-x-2 items-center justify-center">
+        
         {Convener.map((item) => (
           
           <TeamCard key={item.name}
@@ -83,11 +86,46 @@ const Team = () => {
 
           />
           ))}
+        
+        </div>
+        <div>
+          <div className="h-[10rem] w-full my-2 bg-black flex flex-col items-center justify-center overflow-hidden rounded-md">
+          
+          <h1 className="md:text-2xl text-3xl lg:text-4xl font-bold text-center text-white relative z-20">
+            Vigilance
+          </h1>
+          <div className="w-[40rem] h-10 relative">
+            {/* Gradients */}
+            <div className="absolute inset-x-20 top-0 bg-gradient-to-r from-transparent via-indigo-500 to-transparent h-[2px] w-3/4 blur-sm" />
+            <div className="absolute inset-x-20 top-0 bg-gradient-to-r from-transparent via-indigo-500 to-transparent h-px w-3/4" />
+            <div className="absolute inset-x-60 top-0 bg-gradient-to-r from-transparent via-sky-500 to-transparent h-[5px] w-1/4 blur-sm" />
+            <div className="absolute inset-x-60 top-0 bg-gradient-to-r from-transparent via-sky-500 to-transparent h-px w-1/4" />
+     
+            {/* Radial Gradient to prevent sharp edges */}
+            <div className="absolute inset-0 w-full h-full bg-black [mask-image:radial-gradient(350px_200px_at_top,transparent_20%,white)]"></div>
+          </div>
+        </div>
+        
+        
+        {Vigilance.map((item) => (
+          
+          <TeamCard key={item.name}
+          name={item.name}
+          desc={item.desc}
+          pic={item.pic}
+          linkedin={item.linkedin}
+          insta={item.insta}
+         desig={item.desig}
+
+          />
+          ))}
+        
+        </div>
         </div>
         
         <div className="h-[10rem] w-full my-2 bg-black flex flex-col items-center justify-center overflow-hidden rounded-md">
           <h1 className="md:text-2xl text-3xl lg:text-4xl font-bold text-center text-white relative z-20">
-           Co-Convener
+           Co-Conveners
           </h1>
           <div className="w-[40rem] h-10 relative">
             {/* Gradients */}
@@ -115,35 +153,7 @@ const Team = () => {
             ))}  
         </div>
 
-        <div className="h-[10rem] w-full my-2 bg-black flex flex-col items-center justify-center overflow-hidden rounded-md">
-          <h1 className="md:text-2xl text-3xl lg:text-4xl font-bold text-center text-white relative z-20">
-            Vigilance
-          </h1>
-          <div className="w-[40rem] h-10 relative">
-            {/* Gradients */}
-            <div className="absolute inset-x-20 top-0 bg-gradient-to-r from-transparent via-indigo-500 to-transparent h-[2px] w-3/4 blur-sm" />
-            <div className="absolute inset-x-20 top-0 bg-gradient-to-r from-transparent via-indigo-500 to-transparent h-px w-3/4" />
-            <div className="absolute inset-x-60 top-0 bg-gradient-to-r from-transparent via-sky-500 to-transparent h-[5px] w-1/4 blur-sm" />
-            <div className="absolute inset-x-60 top-0 bg-gradient-to-r from-transparent via-sky-500 to-transparent h-px w-1/4" />
-     
-            {/* Radial Gradient to prevent sharp edges */}
-            <div className="absolute inset-0 w-full h-full bg-black [mask-image:radial-gradient(350px_200px_at_top,transparent_20%,white)]"></div>
-          </div>
-        </div>
-        
-        <div className="mx-2 grid grid-cols-1 md:grid-cols-1 lg:grid-cols-1 gap-x-2 items-center justify-center">
-        {Vigilance.map((item) => (
-        
-        <TeamCard key={item.name}
-            name={item.name}
-            desc={item.desc}
-            pic={item.pic}
-            linkedin={item.linkedin}
-            insta={item.insta}
-            desig={item.desig}
-            />
-            ))} 
-        </div>
+    
 
 
         <div className="h-[10rem] w-full my-2 bg-black flex flex-col items-center justify-center overflow-hidden rounded-md">
