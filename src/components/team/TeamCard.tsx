@@ -71,7 +71,7 @@ export  default function TeamCard({
             as="button"
             className=""
           >
-            <Link href={insta} className="" >
+            <Link target="_blank" href={insta} className="" >
               <IconBrandInstagram className="h-8 w-8 text-white"/>
             </Link>
           </CardItem> 
@@ -80,7 +80,7 @@ export  default function TeamCard({
             as="button"
             className=""
           >
-            <Link href={linkedin} className="" >
+            <Link target="_blank" href={linkedin} className="" >
               <IconBrandLinkedin className="h-8 w-8 mx-1 text-white"/>
             </Link>
           </CardItem>
