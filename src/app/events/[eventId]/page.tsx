@@ -30,6 +30,7 @@ export const metadata: Metadata = {
     "regLink" : string,
     "rulebook" : string
     "type": string
+    "starttime"?:string
 }
 const events = data.events;
 export function generateStaticParams() {
@@ -93,13 +94,20 @@ function IndividualEvent({event} : {event: EventProps}) {
               </h3>
               <p className="text-gray-300">{`${eventDate.toLocaleDateString('en-IN')}`}</p>
             </div>
-            <div className="mb-4 mx-6">
-              <h3 className="text-heading mb-2.5 text-base font-semibold capitalize md:text-lg text-gray-50">
+            {
+              (event.starttime)?(
+              <div className="mb-4 mx-6">
+                <h3 className="text-heading mb-2.5 text-base font-semibold capitalize md:text-lg text-gray-50">
                 Time
-              </h3>
-              <p className="text-gray-300">{`${eventDate.toLocaleTimeString('en-IN',{timeZoneName: "short"})}`}</p>
-            </div>
+                </h3>
+                <p className="text-gray-300">{`${event.starttime}`}</p>
+              </div>):null
+            }
+              
           </div>
+            
+
+            
           
         
           {
