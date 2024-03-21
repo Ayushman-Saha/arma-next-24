@@ -6,10 +6,12 @@ import ScrollReveal from '@/components/events/ScrollReveal'
 
 //Importing and filtering data
 import data from "../data.json"
+const armaFair = data.events[3];
 import useScreenSize from '@/hooks/useScreenSize'
 import EventGridLayout from '@/components/events/EventGridLayout'
 const competitiveEvents = data.events.filter((event) => event.type === "competition")
 const featuredEvents = data.events.filter((event) => event.isFeatured === true)
+featuredEvents.push(armaFair);
 const workshopEvents = data.events.filter((event) => event.type === "workshop")
 const talkEvents = data.events.filter((event) => event.type === "talk")
 const gamingEvents = data.events.filter((event) => event.type === "gaming")
