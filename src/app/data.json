@@ -10,7 +10,7 @@
             "starttime": "11:00 AM",
             "endtime": "1:00 PM",
             "venue" : "LHC Atrium",
-            "regLink" : "/https://forms.gle/FTDjPgyJ6a4EMo16A",
+            "regLink" : "https://forms.gle/FTDjPgyJ6a4EMo16A",
             "rulebook" : "https://drive.google.com/drive/folders/1pGvsiPNF9NFl4gcKDLLmSUy7R1b-mCG_",
             "type" : "competition",
             "isFeatured" : true

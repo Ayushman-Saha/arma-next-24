@@ -3,7 +3,7 @@ import data from "../../data.json"
 import type { Metadata } from "next";
 import { BackgroundBeams } from "@/components/effects/BackgroundBeams";
 import { cn } from "@/utils/cn";
-
+import Link from "next/link";
 
 
 export const metadata: Metadata = {
@@ -134,14 +134,14 @@ function IndividualEvent({event} : {event: EventProps}) {
               <div className="py-6 ">
           
 
-            <a target="_blank" href={((regDeadline.getTime() - currentDate.getTime()) > 0 ? `${event.regLink}` : "")}>
+            <Link target="_blank" href={`${event.regLink}`}>
             <button
               type="submit"
               className={cn("h-16 w-full rounded-md px-3 py-2 text-sm font-semibold text-black shadow-smfocus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-black", ((regDeadline.getTime() - currentDate.getTime()) > 0 ? "bg-gray-100" : "bg-gray-500"))}
             >
              {(regDeadline.getTime() - currentDate.getTime()) > 0 ? "Register" : "Registrations Closed"} 
             </button>
-            </a>
+            </Link>
          
           </div> 
 
