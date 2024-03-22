@@ -152,7 +152,7 @@
             "eventId" : 13,
             "eventName" : "Photography Workshop",
             "eventDesc" : "capture the beauty of Bhopal though the lens.",
-            "eventImage" : "https://arma-data.pages.dev/images/PhotoWorkshop.png",
+            "eventImage" : "https://arma-data.pages.dev/images/events/PhotoWorkshop.png",
             "regDeadline" : "2023-03-23T12:12:34+00:00",
             "eventDate" : "2024-03-23T12:12:34+00:00",
             "starttime": "4:00 PM",
