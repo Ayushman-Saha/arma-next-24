@@ -608,8 +608,8 @@
                 "events": [
                     {
                         "title": "Opening Cermony",
-                        "startTime": "5:00PM",
-                        "endTime": "10:00PM",
+                        "startTime": "7:00PM",
+                        "endTime": "8:00PM",
                         "venue": "L5"
                     },
                     {
@@ -639,8 +639,14 @@
                     {
                         "title": "Photography Workshop [Astro Tutorial]-1",
                         "startTime": "4:00PM",
-                        "endTime": "5:00PM",
+                        "endTime": "6:00PM",
                         "venue": "Studio Air"
+                    },
+                    {
+                        "title": "Nebula Cloud Talk",
+                        "startTime": "6:00PM",
+                        "endTime": "7:00PM",
+                        "venue": "online"
                     },
                     {
                         "title": "Tech Quiz",
@@ -654,12 +660,7 @@
                         "endTime": "12:00AM",
                         "venue": "Skywalk"
                     },
-                    {
-                        "title": "Nebula Cloud Talk",
-                        "startTime": "6:00PM",
-                        "endTime": "7:00PM",
-                        "venue": "online"
-                    },
+                
                     {
                         "title": "Gaming Quarter Finals",
                         "startTime": "9:00PM",
@@ -680,21 +681,27 @@
                 "events": [
                     {
                         "title": "ArmaCode",
-                        "startTime": "11:00 AM",
+                        "startTime": "10:00 AM",
                         "endTime": "1:00 PM",
                         "venue": "Studio Air"
                     },
                     {
                         "title": "ArmaCode",
-                        "startTime": "3:00 PM",
+                        "startTime": "2:00 PM",
                         "endTime": "5:00 PM",
                         "venue": "Studio Air"
                     },
                     {
                         "title": "Tech Expo",
-                        "startTime": "12:00 PM",
-                        "endTime": "7:00PM",
+                        "startTime": "5:00 PM",
+                        "endTime": "8:00PM",
                         "venue": "LHC Atrium"
+                    },
+                    {
+                        "title": "Uttarang Concert",
+                        "startTime": "7:00PM",
+                        "endTime": "8:00PM",
+                        "venue": "LHC Lawn"
                     },
                     {
                         "title": "Arma Fair",
@@ -702,25 +709,14 @@
                         "endTime":"12:00AM",
                         "venue": "LHC Lawn"
                     },
-            
-                    {
-                        "title": "Photography Workshop- Astro",
-                        "startTime": "9:00PM",
-                        "endTime": "12:00AM",
-                        "venue": "Football Ground"
-                    },
+
                     {
                         "title": "Finals Gaming",
                         "startTime":"9:00PM",
                         "endTime":"12:00AM",
                         "venue": "LHC Lawn"
-                    },
-                    {
-                        "title": "Uttrang Concert",
-                        "startTime": "6:00PM",
-                        "endTime": "7:00PM",
-                        "venue": "LHC Lawn"
                     }
+                   
                 ]
             }
         ]

@@ -54,7 +54,7 @@ const Team = () => {
           </div>
         </div>
 
-      <div  className='mx-5  grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-x-2 overflow-visible z-50 justify-center h-full'>
+      <div  className='mx-5  grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-x-2 overflow-visible justify-center h-full'>
         <div>
           <div className="h-[10rem] w-full my-2 bg-black flex flex-col items-center justify-center overflow-hidden rounded-md">
           
