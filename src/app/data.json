@@ -680,6 +680,12 @@
                 "date": "24 March",
                 "events": [
                     {
+                        "title": "Photography Workshop",
+                        "startTime": "3:00 PM",
+                        "endTime": "6:00 PM",
+                        "venue": "Studio Air"
+                    },
+                    {
                         "title": "Tech Expo",
                         "startTime": "5:00 PM",
                         "endTime": "8:00PM",
