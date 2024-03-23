@@ -680,18 +680,6 @@
                 "date": "24 March",
                 "events": [
                     {
-                        "title": "ArmaCode",
-                        "startTime": "10:00 AM",
-                        "endTime": "1:00 PM",
-                        "venue": "Studio Air"
-                    },
-                    {
-                        "title": "ArmaCode",
-                        "startTime": "2:00 PM",
-                        "endTime": "5:00 PM",
-                        "venue": "Studio Air"
-                    },
-                    {
                         "title": "Tech Expo",
                         "startTime": "5:00 PM",
                         "endTime": "8:00PM",
